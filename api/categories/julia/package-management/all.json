@@ -1,0 +1,1 @@
+[{"category":"Julia","homepage_url":"https://pkgdocs.julialang.org","id":"julia--package-management--pkg","logo_url":"http://127.0.0.1:8000/","name":"Pkg","subcategory":"Package Management","description":"Pkg Julia package manager","maturity":"graduated","repositories":[{"url":"https://github.com/JuliaLang/Pkg.jl","primary":true}]}]

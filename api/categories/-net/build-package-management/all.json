@@ -1,0 +1,1 @@
+[{"category":".NET","homepage_url":"https://www.nuget.org","id":"-net--build-package-management--nuget","logo_url":"http://127.0.0.1:8000/","name":"NuGet","subcategory":"Build & Package Management","description":"NuGet package manager for .NET","maturity":"graduated","repositories":[{"url":"https://github.com/NuGet/NuGet.Client","primary":true}]}]
