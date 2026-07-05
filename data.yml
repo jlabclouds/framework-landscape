@@ -8,14 +8,14 @@ landscape:
           - item:
             description: Spring Initializr for bootstrapping Spring Boot projects
             homepage_url: https://start.spring.io
-            logo: https://start.spring.io/images/icon-512x512.png
+            logo: spring-icon-512x512.png
             name: Spring Initializr
             project: graduated
             repo_url: https://github.com/spring-projects/spring-boot-initializr
           - item:
             description: Spring Boot framework for building applications
             homepage_url: https://spring.io/projects/spring-boot
-            logo: https://start.spring.io/images/icon-512x512.png
+            logo: logos/spring-icon-512x512.png
             name: Spring Boot
             project: graduated
             repo_url: https://github.com/spring-projects/spring-boot
