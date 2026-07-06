@@ -173,13 +173,11 @@ grid_items_size: large
 #       - <CATEGORY2_NAME>
 #
 groups:
-  - name: Traditional Languages
+  - name: Languages & Frameworks
     categories:
       - Java
       - .NET
       - Python
-  - name: Modern & Specialized
-    categories:
       - Rust
       - CMake
       - ROS
