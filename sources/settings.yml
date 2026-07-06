@@ -183,6 +183,18 @@ groups:
       - ROS
       - Q#
       - Julia
+  - name: Tools
+    categories:
+      - Notebooks & Documentation
+      - Engineering & Simulation
+      - Chemistry & Molecular Modeling
+      - Bioinformatics
+      - Data Science & Programming
+      - Geospatial & Mapping
+      - Physics & Material Science
+      - Space Science & Astronomy
+      - Neuroimaging & Brain Computing
+      - Data & Visualization Resources
 
 # Header (optional)
 #
