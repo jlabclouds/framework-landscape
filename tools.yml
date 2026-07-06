@@ -1,0 +1,922 @@
+landscape:
+  - category:
+    name: Notebooks & Documentation
+    subcategories:
+      - subcategory:
+        name: Jupyter Ecosystem
+        items:
+          - item:
+            description: Build beautiful, publication-quality books and documents from computational content
+            homepage_url: https://jupyterbook.org/stable/
+            logo: jupyterbook.svg
+            name: Jupyter Book
+            project: graduated
+      - subcategory:
+        name: Julia Notebooks
+        items:
+          - item:
+            description: Reactive notebooks for Julia
+            homepage_url: https://plutojl.org/en/docs/plutopages/
+            logo: pluto.svg
+            name: Pluto.jl
+            project: graduated
+
+  - category:
+    name: Engineering & Simulation
+    subcategories:
+      - subcategory:
+        name: CAD & Design
+        items:
+          - item:
+            description: Professional design and drafting software
+            homepage_url: https://www.autodesk.com
+            logo: autodesk.svg
+            name: AutoCAD
+            project: graduated
+          - item:
+            description: 3D design and engineering platform
+            homepage_url: https://www.3ds.com
+            logo: catia.svg
+            name: CATIA
+            project: graduated
+          - item:
+            description: CAD software for 3D design
+            homepage_url: https://www.solidworks.com
+            logo: solidworks.svg
+            name: SolidWorks
+            project: graduated
+      - subcategory:
+        name: FEA & Structural Analysis
+        items:
+          - item:
+            description: Engineering simulation software suite
+            homepage_url: https://www.ansys.com/
+            logo: ansys.svg
+            name: ANSYS
+            project: graduated
+          - item:
+            description: Structural analysis and design software
+            homepage_url: https://www.csiber.com
+            logo: sap2000.svg
+            name: SAP2000
+            project: graduated
+          - item:
+            description: Finite element analysis software
+            homepage_url: https://www.simulia.com
+            logo: abaqus.svg
+            name: Abaqus
+            project: graduated
+      - subcategory:
+        name: Simulation & Modeling
+        items:
+          - item:
+            description: Simulation and model-based design
+            homepage_url: https://www.mathworks.com
+            logo: simulink.svg
+            name: Simulink
+            project: graduated
+          - item:
+            description: Multiphysics simulation platform
+            homepage_url: https://www.comsol.com
+            logo: comsol.svg
+            name: COMSOL
+            project: graduated
+          - item:
+            description: Open-source CFD toolbox
+            homepage_url: https://openfoam.com
+            logo: openfoam.svg
+            name: OpenFOAM
+            project: graduated
+          - item:
+            description: Systems engineering software
+            homepage_url: https://www.ni.com
+            logo: labview.svg
+            name: LabVIEW
+            project: graduated
+      - subcategory:
+        name: Infrastructure Design
+        items:
+          - item:
+            description: Infrastructure design software
+            homepage_url: https://www.autodesk.com
+            logo: civil3d.svg
+            name: Civil 3D
+            project: graduated
+
+  - category:
+    name: Chemistry & Molecular Modeling
+    subcategories:
+      - subcategory:
+        name: Quantum Chemistry
+        items:
+          - item:
+            description: Quantum chemistry package
+            homepage_url: https://www.msg.chem.iastate.edu
+            logo: gamess.svg
+            name: GAMESS
+            project: graduated
+          - item:
+            description: Electronic structure calculations
+            homepage_url: https://gaussian.com
+            logo: gaussian.svg
+            name: Gaussian
+            project: graduated
+          - item:
+            description: Quantum chemistry software
+            homepage_url: https://molcas.org
+            logo: molcas.svg
+            name: Molcas
+            project: graduated
+          - item:
+            description: Quantum chemistry package
+            homepage_url: https://www.molpro.net
+            logo: molpro.svg
+            name: Molpro
+            project: graduated
+      - subcategory:
+        name: Molecular Visualization
+        items:
+          - item:
+            description: Molecular visualization software
+            homepage_url: https://www.pymol.org
+            logo: pymol.svg
+            name: PyMOL
+            project: graduated
+          - item:
+            description: Molecular editor and visualization
+            homepage_url: https://avogadro.cc
+            logo: avogadro.svg
+            name: Avogadro
+            project: graduated
+      - subcategory:
+        name: Chemistry Tools
+        items:
+          - item:
+            description: Chemical structure drawing
+            homepage_url: https://www.revvitysignals.com
+            logo: chemdraw.svg
+            name: ChemDraw
+            project: graduated
+          - item:
+            description: Chemical notation system
+            homepage_url: https://opensmiles.org
+            logo: smiles.svg
+            name: SMILES
+            project: graduated
+          - item:
+            description: Molecular modeling software
+            homepage_url: https://www.wavefun.com
+            logo: spartan.svg
+            name: Spartan
+            project: graduated
+      - subcategory:
+        name: Computational Chemistry
+        items:
+          - item:
+            description: Computational chemistry software
+            homepage_url: https://www.nwchem.org
+            logo: nwchem.svg
+            name: NWChem
+            project: graduated
+          - item:
+            description: Quantum chemistry program
+            homepage_url: https://psicode.org
+            logo: psi4.svg
+            name: Psi4
+            project: graduated
+          - item:
+            description: Quantum chemistry software
+            homepage_url: https://www.q-chem.com
+            logo: qchem.svg
+            name: Q-Chem
+            project: graduated
+          - item:
+            description: Quantum chemistry package
+            homepage_url: https://www.turbomole.com
+            logo: turbomole.svg
+            name: Turbomole
+            project: graduated
+
+  - category:
+    name: Bioinformatics
+    subcategories:
+      - subcategory:
+        name: Python Tools
+        items:
+          - item:
+            description: Bioinformatics toolkit for Python
+            homepage_url: https://biopython.org
+            logo: biopython.svg
+            name: BioPython
+            project: graduated
+      - subcategory:
+        name: Language-Specific Tools
+        items:
+          - item:
+            description: Bioinformatics library for Java
+            homepage_url: https://biojava.org
+            logo: biojava.svg
+            name: BioJava
+            project: graduated
+          - item:
+            description: Bioinformatics toolkit for Perl
+            homepage_url: https://bioperl.org
+            logo: bioperl.svg
+            name: BioPerl
+            project: graduated
+      - subcategory:
+        name: Statistical Platforms
+        items:
+          - item:
+            description: Bioinformatics tools for R
+            homepage_url: https://www.bioconductor.org
+            logo: bioconductor.svg
+            name: Bioconductor
+            project: graduated
+
+  - category:
+    name: Data Science & Programming
+    subcategories:
+      - subcategory:
+        name: Programming Languages
+        items:
+          - item:
+            description: Versatile programming language
+            homepage_url: https://www.python.org
+            logo: python.svg
+            name: Python
+            project: graduated
+          - item:
+            description: Statistical computing language
+            homepage_url: https://www.r-project.org
+            logo: r.svg
+            name: R
+            project: graduated
+          - item:
+            description: High-performance computing language
+            homepage_url: https://julialang.org
+            logo: julia.svg
+            name: Julia
+            project: graduated
+          - item:
+            description: Scalable programming language
+            homepage_url: https://www.scala-lang.org
+            logo: scala.svg
+            name: Scala
+            project: graduated
+      - subcategory:
+        name: Scientific Computing
+        items:
+          - item:
+            description: Numerical computing library
+            homepage_url: https://numpy.org
+            logo: numpy.svg
+            name: NumPy
+            project: graduated
+          - item:
+            description: Scientific computing library
+            homepage_url: https://scipy.org
+            logo: scipy.svg
+            name: SciPy
+            project: graduated
+          - item:
+            description: Data manipulation library
+            homepage_url: https://pandas.pydata.org
+            logo: pandas.svg
+            name: Pandas
+            project: graduated
+      - subcategory:
+        name: Data Visualization
+        items:
+          - item:
+            description: Data visualization library
+            homepage_url: https://matplotlib.org
+            logo: matplotlib.svg
+            name: Matplotlib
+            project: graduated
+          - item:
+            description: Statistical data visualization
+            homepage_url: https://seaborn.pydata.org
+            logo: seaborn.svg
+            name: Seaborn
+            project: graduated
+          - item:
+            description: Interactive visualizations
+            homepage_url: https://bokeh.org/
+            logo: bokeh.svg
+            name: Bokeh
+            project: graduated
+      - subcategory:
+        name: Machine Learning Frameworks
+        items:
+          - item:
+            description: Machine learning framework
+            homepage_url: https://www.tensorflow.org
+            logo: tensorflow.svg
+            name: TensorFlow
+            project: graduated
+          - item:
+            description: Deep learning API
+            homepage_url: https://keras.io
+            logo: keras.svg
+            name: Keras
+            project: graduated
+          - item:
+            description: Machine learning framework
+            homepage_url: https://pytorch.org
+            logo: pytorch.svg
+            name: PyTorch
+            project: graduated
+          - item:
+            description: Deep learning framework
+            homepage_url: https://caffe.berkeleyvision.org
+            logo: caffe.svg
+            name: Caffe
+            project: graduated
+          - item:
+            description: Deep learning framework
+            homepage_url: https://mxnet.apache.org
+            logo: mxnet.svg
+            name: MXNet
+            project: graduated
+          - item:
+            description: Deep learning framework
+            homepage_url: https://www.paddlepaddle.org.cn
+            logo: paddlepaddle.svg
+            name: PaddlePaddle
+            project: graduated
+      - subcategory:
+        name: Specialized ML Tools
+        items:
+          - item:
+            description: Mathematical computation library
+            homepage_url: https://theano-py.readthedocs.io
+            logo: theano.svg
+            name: Theano
+            project: graduated
+          - item:
+            description: PyTorch script language
+            homepage_url: https://pytorch.org/docs/stable/jit.html
+            logo: torchscript.svg
+            name: TorchScript
+            project: graduated
+          - item:
+            description: Cognitive Toolkit for deep learning
+            homepage_url: https://cntk.ai
+            logo: cntk.svg
+            name: CNTK
+            project: graduated
+          - item:
+            description: Deep learning framework
+            homepage_url: https://chainer.org
+            logo: chainer.svg
+            name: Chainer
+            project: graduated
+          - item:
+            description: ML pipeline automation
+            homepage_url: https://epistasislab.github.io/tpot/
+            logo: tpot.svg
+            name: TPOT
+            project: graduated
+      - subcategory:
+        name: Business Analytics
+        items:
+          - item:
+            description: Business analytics tool
+            homepage_url: https://powerbi.microsoft.com
+            logo: powerbi.svg
+            name: Power BI
+            project: graduated
+      - subcategory:
+        name: Numerical & Mathematics
+        items:
+          - item:
+            description: Numerical computing and programming
+            homepage_url: https://www.mathworks.com
+            logo: matlab.svg
+            name: MATLAB
+            project: graduated
+          - item:
+            description: Technical computing system
+            homepage_url: https://www.wolfram.com
+            logo: mathematica.svg
+            name: Mathematica
+            project: graduated
+          - item:
+            description: Computational knowledge engine
+            homepage_url: https://www.wolframalpha.com
+            logo: wolframalpha.svg
+            name: Wolfram Alpha
+            project: graduated
+          - item:
+            description: Mathematics software
+            homepage_url: https://www.maplesoft.com
+            logo: maple.svg
+            name: Maple
+            project: graduated
+          - item:
+            description: Engineering computation software
+            homepage_url: https://www.ptc.com
+            logo: mathcad.svg
+            name: MathCAD
+            project: graduated
+      - subcategory:
+        name: Big Data & Distributed Computing
+        items:
+          - item:
+            description: Distributed computing framework
+            homepage_url: https://hadoop.apache.org
+            logo: hadoop.svg
+            name: Hadoop
+            project: graduated
+          - item:
+            description: Big data processing engine
+            homepage_url: https://spark.apache.org
+            logo: spark.svg
+            name: Spark
+            project: graduated
+          - item:
+            description: Parallel computing library
+            homepage_url: https://www.dask.org/
+            logo: dask.svg
+            name: Dask
+            project: graduated
+          - item:
+            description: Scale Dask to the Cloud
+            homepage_url: https://docs.coiled.io/
+            logo: coiled.svg
+            name: Coiled
+            project: graduated
+      - subcategory:
+        name: JavaScript ML
+        items:
+          - item:
+            description: Machine learning for JavaScript
+            homepage_url: https://www.tensorflow.org/js
+            logo: tensorflowjs.svg
+            name: TensorFlow.js
+            project: graduated
+          - item:
+            description: Deep learning in JavaScript
+            homepage_url: https://keras.io/js
+            logo: kerasjs.svg
+            name: Keras.js
+            project: graduated
+
+  - category:
+    name: Geospatial & Mapping
+    subcategories:
+      - subcategory:
+        name: GIS Platforms
+        items:
+          - item:
+            description: GIS mapping platform
+            homepage_url: https://www.esri.com
+            logo: arcgis.svg
+            name: ArcGIS
+            project: graduated
+          - item:
+            description: Open-source GIS software
+            homepage_url: https://qgis.org
+            logo: qgis.svg
+            name: QGIS
+            project: graduated
+      - subcategory:
+        name: Web Mapping Libraries
+        items:
+          - item:
+            description: Interactive mapping library
+            homepage_url: https://leafletjs.com
+            logo: leaflet.svg
+            name: Leaflet
+            project: graduated
+          - item:
+            description: Web mapping library
+            homepage_url: https://openlayers.org
+            logo: openlayers.svg
+            name: OpenLayers
+            project: graduated
+          - item:
+            description: WebGL mapping library
+            homepage_url: https://www.mapbox.com/mapbox-gl-js
+            logo: mapboxgl.svg
+            name: Mapbox GL JS
+            project: graduated
+      - subcategory:
+        name: 3D & Advanced Visualization
+        items:
+          - item:
+            description: 3D geospatial visualization
+            homepage_url: https://cesium.com
+            logo: cesium.svg
+            name: Cesium
+            project: graduated
+          - item:
+            description: 3D graphics library
+            homepage_url: https://threejs.org
+            logo: threejs.svg
+            name: Three.js
+            project: graduated
+      - subcategory:
+        name: Geospatial Data & Tools
+        items:
+          - item:
+            description: Geospatial data translation
+            homepage_url: https://gdal.org
+            logo: gdal.svg
+            name: GDAL
+            project: graduated
+          - item:
+            description: Map rendering library
+            homepage_url: https://mapnik.org
+            logo: mapnik.svg
+            name: Mapnik
+            project: graduated
+          - item:
+            description: Web mapping server
+            homepage_url: https://mapserver.org
+            logo: mapserver.svg
+            name: MapServer
+            project: graduated
+      - subcategory:
+        name: Location & Mapping Platforms
+        items:
+          - item:
+            description: Location platform
+            homepage_url: https://www.mapbox.com
+            logo: mapbox.svg
+            name: Mapbox
+            project: graduated
+          - item:
+            description: Cloud mapping service
+            homepage_url: https://azure.microsoft.com/en-us/services/cognitive-services/maps
+            logo: azuremaps.svg
+            name: Azure Maps
+            project: graduated
+          - item:
+            description: Google's mapping APIs
+            homepage_url: https://cloud.google.com/maps-platform
+            logo: googlemaps.svg
+            name: Google Maps Platform
+            project: graduated
+          - item:
+            description: Mapping and location services
+            homepage_url: https://www.here.com
+            logo: here.svg
+            name: HERE Maps
+            project: graduated
+          - item:
+            description: Map hosting platform
+            homepage_url: https://www.maptiler.com
+            logo: maptiler.svg
+            name: MapTiler
+            project: graduated
+          - item:
+            description: Map design platform
+            homepage_url: https://www.mapbox.com/studio
+            logo: mapboxstudio.svg
+            name: Mapbox Studio
+            project: graduated
+      - subcategory:
+        name: Earth Observation
+        items:
+          - item:
+            description: Geospatial analysis platform
+            homepage_url: https://console.cloud.google.com/apis/library/earthengine.googleapis.com
+            logo: googleearthengine.svg
+            name: Google Earth Engine
+            project: graduated
+
+  - category:
+    name: Physics & Material Science
+    subcategories:
+      - subcategory:
+        name: Nuclear & Particle Physics
+        items:
+          - item:
+            description: Monte Carlo N-Particle transport
+            homepage_url: https://mcnp.lanl.gov
+            logo: mcnp.svg
+            name: MCNP
+            project: graduated
+          - item:
+            description: Nuclear analysis software
+            homepage_url: https://www.ornl.gov
+            logo: scale.svg
+            name: SCALE
+            project: graduated
+          - item:
+            description: Monte Carlo reactor physics
+            homepage_url: https://serpent.vtt.fi
+            logo: serpent.svg
+            name: Serpent
+            project: graduated
+          - item:
+            description: Particle simulation toolkit
+            homepage_url: https://geant4.web.cern.ch/
+            logo: geant4.svg
+            name: Geant4
+            project: graduated
+          - item:
+            description: Detector simulation framework
+            homepage_url: https://garfieldpp.web.cern.ch/
+            logo: garfield.svg
+            name: Garfield++
+            project: graduated
+      - subcategory:
+        name: DFT & Electronic Structure
+        items:
+          - item:
+            description: First-principles calculations
+            homepage_url: https://www.vasp.at
+            logo: vasp.svg
+            name: VASP
+            project: graduated
+          - item:
+            description: DFT calculations
+            homepage_url: https://www.quantum-espresso.org
+            logo: quantumespresso.svg
+            name: Quantum Espresso
+            project: graduated
+          - item:
+            description: DFT program
+            homepage_url: https://www.openmx-square.org
+            logo: openmx.svg
+            name: OpenMX
+            project: graduated
+          - item:
+            description: Electronic structure code
+            homepage_url: https://fhi-aims.org
+            logo: fhiaims.svg
+            name: FHI-aims
+            project: graduated
+          - item:
+            description: DFT code
+            homepage_url: https://exciting-code.org
+            logo: exciting.svg
+            name: Exciting
+            project: graduated
+          - item:
+            description: Electronic structure calculation
+            homepage_url: https://www.siesta-project.org
+            logo: siesta.svg
+            name: Siesta
+            project: graduated
+          - item:
+            description: Plane wave DFT
+            homepage_url: https://www.castep.org
+            logo: castep.svg
+            name: CASTEP
+            project: graduated
+          - item:
+            description: DFT calculator
+            homepage_url: https://gpaw.org
+            logo: gpaw.svg
+            name: GPAW
+            project: graduated
+          - item:
+            description: All-electron DFT code
+            homepage_url: https://elk.sourceforge.io
+            logo: elk.svg
+            name: ELK
+            project: graduated
+          - item:
+            description: First-principles calculation suite
+            homepage_url: https://www.abinit.org
+            logo: abinit.svg
+            name: ABINIT
+            project: graduated
+      - subcategory:
+        name: Molecular Dynamics
+        items:
+          - item:
+            description: Molecular dynamics simulator
+            homepage_url: https://lammps.sandia.gov
+            logo: lammps.svg
+            name: LAMMPS
+            project: graduated
+      - subcategory:
+        name: Educational & Reference
+        items:
+          - item:
+            description: Physics simulations
+            homepage_url: https://phet.colorado.edu
+            logo: phet.svg
+            name: PhET
+            project: graduated
+          - item:
+            description: Materials database
+            homepage_url: https://www.materialsproject.org
+            logo: materialsproject.svg
+            name: Materials Project
+            project: graduated
+
+  - category:
+    name: Space Science & Astronomy
+    subcategories:
+      - subcategory:
+        name: JWST Tools
+        items:
+          - item:
+            description: JWST Instrument Status Tool
+            homepage_url: https://jist.stsci.edu/jist
+            logo: jwst.svg
+            name: JIST
+            project: graduated
+          - item:
+            description: Exposure Time Calculator for JWST
+            homepage_url: https://www.stsci.edu/jwst/science-planning/proposal-planning-toolbox/exposure-time-calculator
+            logo: jwst.svg
+            name: Exposure Time Calculator
+            project: graduated
+      - subcategory:
+        name: Proposal & Observation Planning
+        items:
+          - item:
+            description: Astronomers Proposal Tool
+            homepage_url: https://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt
+            logo: apt.svg
+            name: APT
+            project: graduated
+          - item:
+            description: Data portal for Roman Space Telescope
+            homepage_url: https://roman-docs.stsci.edu/data-handbook-home/roman-research-nexus
+            logo: roman.svg
+            name: Roman Research Nexus
+            project: graduated
+      - subcategory:
+        name: NASA Platforms & Programs
+        items:
+          - item:
+            description: Comprehensive earth observation data
+            homepage_url: https://earthdata.nasa.gov
+            logo: earthdata.svg
+            name: Earthdata - NASA Earth Data
+            project: graduated
+          - item:
+            description: Advanced computing initiatives at NASA
+            homepage_url: https://esto.nasa.gov/act/
+            logo: nasa.svg
+            name: NASA ACT
+            project: graduated
+          - item:
+            description: Operational SAR and optical analysis
+            homepage_url: https://www.jpl.nasa.gov/go/opera/products/
+            logo: nasa.svg
+            name: NASA OPERA
+            project: graduated
+          - item:
+            description: NASA quantum computing programs
+            homepage_url: https://esto.nasa.gov/quantum/
+            logo: nasa.svg
+            name: NASA Quantum Initiative
+            project: graduated
+      - subcategory:
+        name: Data & Modeling Centers
+        items:
+          - item:
+            description: Community Coordinated Modeling Center
+            homepage_url: https://ccmc.gsfc.nasa.gov/models/
+            logo: ccmc.svg
+            name: CCMC
+            project: graduated
+          - item:
+            description: Open-source Project for a Network Data Access Protocol
+            homepage_url: https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/opendap
+            logo: nasa.svg
+            name: Earthdata OpenDAP
+            project: graduated
+          - item:
+            description: Planetary Data System API
+            homepage_url: https://nasa-pds.github.io/pds-api/guides/search.html
+            logo: nasa.svg
+            name: NASA PDS API
+            project: graduated
+          - item:
+            description: Official NASA data API
+            homepage_url: https://data.nasa.gov/api/3
+            logo: nasa.svg
+            name: NASA Data API
+            project: graduated
+      - subcategory:
+        name: Space Science References
+        items:
+          - item:
+            description: Solar & Astrophysics Laboratory
+            homepage_url: https://www.lmsal.com
+            logo: nasa.svg
+            name: LMSAL
+            project: graduated
+
+  - category:
+    name: Neuroimaging & Brain Computing
+    subcategories:
+      - subcategory:
+        name: Neuroimaging Platforms
+        items:
+          - item:
+            description: Statistical Parametric Mapping
+            homepage_url: https://www.fil.ion.ucl.ac.uk/spm/
+            logo: spm.svg
+            name: SPM
+            project: graduated
+          - item:
+            description: Brain surface analysis
+            homepage_url: https://surfer.nmr.mgh.harvard.edu/
+            logo: freesurfer.svg
+            name: FreeSurfer
+            project: graduated
+          - item:
+            description: Statistical Parametric Mapping software
+            homepage_url: https://www.mimsoftware.com/nuclear-medicine/mim-neuro
+            logo: mimneuro.svg
+            name: MIMneuro
+            project: graduated
+          - item:
+            description: Statistical Parametric Mapping
+            homepage_url: https://www.thermofisher.com/us/en/home/electron-microscopy/products/software-em-3d-vis/amira-software.html
+            logo: amira.svg
+            name: Amira
+            project: graduated
+      - subcategory:
+        name: Comprehensive Platforms
+        items:
+          - item:
+            description: Complete neuroimaging suite
+            homepage_url: https://neurodesk.org/
+            logo: neurodesk.svg
+            name: Neurodesk
+            project: graduated
+          - item:
+            description: Brain imaging and analysis platform
+            homepage_url: https://brainforge.rs.gsu.edu/
+            logo: brainforge.svg
+            name: BrainForge
+            project: graduated
+          - item:
+            description: Bioinformatics tools for R
+            homepage_url: https://neuroconductor.org/
+            logo: neuroconductor.svg
+            name: Neuroconductor
+            project: graduated
+      - subcategory:
+        name: Brain-Computer Interface
+        items:
+          - item:
+            description: Open-source brain-computer interface hardware
+            homepage_url: https://openbci.com/
+            logo: openbci.svg
+            name: OpenBCI
+            project: graduated
+          - item:
+            description: EEG-based neurotechnology and sensors
+            homepage_url: https://store.neurosky.com/
+            logo: neurosky.svg
+            name: NeuroSky
+            project: graduated
+      - subcategory:
+        name: Reference & Resources
+        items:
+          - item:
+            description: Neuroimaging Informatics Tools and Resources
+            homepage_url: https://www.nitrc.org/
+            logo: nitrc.svg
+            name: NITRC
+            project: graduated
+
+  - category:
+    name: Data & Visualization Resources
+    subcategories:
+      - subcategory:
+        name: Data Catalogs & APIs
+        items:
+          - item:
+            description: Comprehensive Knowledge Archive Network
+            homepage_url: https://docs.ckan.org/en/2.11/api/index.html
+            logo: ckan.svg
+            name: CKAN
+            project: graduated
+          - item:
+            description: US government open data catalog
+            homepage_url: https://catalog.data.gov/api/3
+            logo: datagov.svg
+            name: Data.gov
+            project: graduated
+      - subcategory:
+        name: Visualization & Algorithm Tools
+        items:
+          - item:
+            description: Interactive tool to visualize algorithms
+            homepage_url: https://algorithm-visualizer.org/
+            logo: algorithmvisualizer.svg
+            name: Algorithm Visualizer
+            project: graduated
+      - subcategory:
+        name: Databases
+        items:
+          - item:
+            description: Relational database system
+            homepage_url: https://www.mysql.com
+            logo: mysql.svg
+            name: MySQL
+            project: graduated

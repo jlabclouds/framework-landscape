@@ -1,0 +1,298 @@
+# Landscape2 guide
+
+categories:
+  - category: "Notebooks & Documentation"
+    content: |
+      #### Overview
+      Interactive computational notebooks and documentation platforms for scientific computing, research, and technical writing. These tools enable reproducible research by combining executable code, visualizations, and narrative documentation in single documents.
+      
+      #### Key Applications
+      - Reproducible research and analysis
+      - Technical documentation generation
+      - Interactive teaching and demonstrations
+      - Collaborative scientific computing
+
+    subcategories:
+      - subcategory: "Jupyter Ecosystem"
+        content: |
+          Jupyter Book transforms Jupyter notebooks into beautiful, publication-quality books and documentation with seamless integration of code, outputs, and Markdown content.
+      
+      - subcategory: "Julia Notebooks"
+        content: |
+          Pluto.jl provides reactive notebooks for Julia with live code execution, enabling interactive scientific computing with automatic reactivity when variables change.
+
+  - category: "Engineering & Simulation"
+    content: |
+      #### Overview
+      This category encompasses professional tools for computer-aided design (CAD), finite element analysis (FEA), and multiphysics simulation. These tools are essential for engineers and designers working on structural analysis, mechanical design, fluid dynamics, and infrastructure projects.
+      
+      #### Key Applications
+      - 3D design and modeling
+      - Structural and thermal analysis
+      - Computational fluid dynamics (CFD)
+      - System integration and testing
+
+    subcategories:
+      - subcategory: "CAD & Design"
+        content: |
+          Professional CAD tools provide comprehensive 2D/3D design capabilities. AutoCAD leads for general design, while CATIA and SolidWorks specialize in complex 3D modeling and assembly design.
+      
+      - subcategory: "FEA & Structural Analysis"
+        content: |
+          Finite element analysis tools enable engineers to simulate structural behavior, stress distribution, and safety performance. ANSYS, SAP2000, and Abaqus are industry standards for structural optimization.
+      
+      - subcategory: "Simulation & Modeling"
+        content: |
+          Advanced simulation platforms support model-based design, multiphysics coupling, and complex systems analysis. COMSOL and OpenFOAM enable CFD analysis for fluid flow and heat transfer.
+      
+      - subcategory: "Infrastructure Design"
+        content: |
+          Civil infrastructure projects require specialized tools like Civil 3D for roadway design, drainage analysis, and building information modeling (BIM).
+
+  - category: "Chemistry & Molecular Modeling"
+    content: |
+      #### Overview
+      This category includes tools for molecular visualization, quantum chemistry calculations, and chemical structure analysis. These tools are essential for pharmaceutical research, materials science, and chemical engineering.
+      
+      #### Key Applications
+      - Quantum mechanical calculations
+      - Molecular property prediction
+      - Drug discovery and design
+      - Materials characterization
+
+    subcategories:
+      - subcategory: "Quantum Chemistry"
+        content: |
+          Quantum chemistry packages like GAMESS, Gaussian, and Molcas solve the Schrödinger equation to predict molecular properties from first principles.
+      
+      - subcategory: "Molecular Visualization"
+        content: |
+          PyMOL and Avogadro provide intuitive visualization of molecular structures, enabling researchers to understand protein folding and molecular interactions.
+      
+      - subcategory: "Chemistry Tools"
+        content: |
+          ChemDraw facilitates chemical structure drawing and property prediction, while SMILES provides a standardized notation for representing chemical structures.
+      
+      - subcategory: "Computational Chemistry"
+        content: |
+          NWChem, Psi4, and Q-Chem offer specialized computational approaches for different molecular systems and property calculations.
+
+  - category: "Bioinformatics"
+    content: |
+      #### Overview
+      Bioinformatics tools enable researchers to analyze biological sequences, structures, and functional data. These programming libraries and platforms are essential for genomics, proteomics, and evolutionary studies.
+      
+      #### Key Applications
+      - DNA/protein sequence analysis
+      - Phylogenetic analysis
+      - Genomic data processing
+      - Structural biology computations
+
+    subcategories:
+      - subcategory: "Python Tools"
+        content: |
+          BioPython is the comprehensive Python framework for biological computation, providing tools for sequence analysis, structure prediction, and database access.
+      
+      - subcategory: "Language-Specific Tools"
+        content: |
+          BioJava and BioPerl provide specialized bioinformatics capabilities for Java and Perl environments respectively.
+      
+      - subcategory: "Statistical Platforms"
+        content: |
+          Bioconductor brings powerful statistical and computational tools to the R environment, enabling advanced genomic analysis.
+
+  - category: "Data Science & Programming"
+    content: |
+      #### Overview
+      A comprehensive collection of programming languages, scientific computing libraries, and machine learning frameworks. These tools support data analysis, visualization, statistical computing, and artificial intelligence development across multiple domains.
+      
+      #### Key Applications
+      - Data analysis and statistical computing
+      - Machine learning model development
+      - Large-scale data processing
+      - Scientific visualization and communication
+
+    subcategories:
+      - subcategory: "Programming Languages"
+        content: |
+          Python dominates data science with clear syntax and extensive libraries. R excels in statistical analysis, Julia provides high-performance computing, and Scala enables scalable distributed programming.
+      
+      - subcategory: "Scientific Computing"
+        content: |
+          NumPy, SciPy, and Pandas form the foundation of scientific Python computing, enabling efficient numerical operations and data manipulation.
+      
+      - subcategory: "Data Visualization"
+        content: |
+          Matplotlib and Seaborn create publication-quality visualizations, while Bokeh enables interactive web-based visualizations for exploratory data analysis.
+      
+      - subcategory: "Machine Learning Frameworks"
+        content: |
+          TensorFlow and PyTorch dominate deep learning, while Keras provides a high-level API for rapid model development. Specialized frameworks like Caffe and MXNet serve specific use cases.
+      
+      - subcategory: "Specialized ML Tools"
+        content: |
+          Theano pioneered GPU-accelerated computing, TorchScript enables production deployment of PyTorch models, and TPOT automates machine learning pipeline optimization.
+      
+      - subcategory: "Business Analytics"
+        content: |
+          Power BI transforms raw data into interactive dashboards and actionable business intelligence reports.
+      
+      - subcategory: "Numerical & Mathematics"
+        content: |
+          MATLAB remains the gold standard for numerical computing and algorithm prototyping. Mathematica and Wolfram Alpha provide symbolic computation and knowledge engines.
+      
+      - subcategory: "Big Data & Distributed Computing"
+        content: |
+          Hadoop and Spark enable processing of massive datasets across distributed systems. Dask extends pandas-like workflows to out-of-core and distributed data.
+      
+      - subcategory: "JavaScript ML"
+        content: |
+          TensorFlow.js and Keras.js bring machine learning to web browsers, enabling client-side AI applications.
+
+  - category: "Geospatial & Mapping"
+    content: |
+      #### Overview
+      Comprehensive tools for geographic information system (GIS) analysis, web mapping, and 3D geospatial visualization. Essential for urban planning, environmental monitoring, location analytics, and remote sensing.
+      
+      #### Key Applications
+      - Map creation and spatial analysis
+      - Location-based services
+      - Environmental and climate monitoring
+      - Urban planning and infrastructure
+
+    subcategories:
+      - subcategory: "GIS Platforms"
+        content: |
+          ArcGIS is the industry leader for comprehensive GIS analysis, while QGIS provides powerful open-source alternatives with extensive plugin ecosystems.
+      
+      - subcategory: "Web Mapping Libraries"
+        content: |
+          Leaflet and OpenLayers provide lightweight, flexible web mapping, while Mapbox GL JS brings WebGL performance for interactive maps.
+      
+      - subcategory: "3D & Advanced Visualization"
+        content: |
+          Cesium specializes in 3D geospatial visualization for satellite imagery and geospatial analysis, while Three.js provides general 3D graphics capabilities.
+      
+      - subcategory: "Geospatial Data & Tools"
+        content: |
+          GDAL handles geospatial data format translation, Mapnik renders beautiful maps, and MapServer provides web mapping infrastructure.
+      
+      - subcategory: "Location & Mapping Platforms"
+        content: |
+          Mapbox, Azure Maps, and Google Maps Platform provide cloud-based mapping services. HERE and MapTiler offer alternative platforms with various specializations.
+      
+      - subcategory: "Earth Observation"
+        content: |
+          Google Earth Engine provides access to massive archives of satellite imagery and computational tools for large-scale geospatial analysis.
+
+  - category: "Physics & Material Science"
+    content: |
+      #### Overview
+      Advanced computational tools for simulating physical phenomena from nuclear physics to materials science. These tools solve fundamental equations of quantum mechanics and classical mechanics at scale.
+      
+      #### Key Applications
+      - Quantum mechanical calculations
+      - Electronic structure predictions
+      - Molecular dynamics simulations
+      - Materials property characterization
+
+    subcategories:
+      - subcategory: "Nuclear & Particle Physics"
+        content: |
+          Monte Carlo simulations like MCNP model particle transport through matter. Geant4 enables detailed detector simulations for high-energy physics experiments.
+      
+      - subcategory: "DFT & Electronic Structure"
+        content: |
+          Density Functional Theory codes like VASP and Quantum Espresso predict ground state properties and electronic band structures of materials.
+      
+      - subcategory: "Molecular Dynamics"
+        content: |
+          LAMMPS is the premier open-source molecular dynamics package, enabling simulations of atomic and molecular systems over nanosecond timescales.
+      
+      - subcategory: "Educational & Reference"
+        content: |
+          PhET provides interactive physics simulations for education, while Materials Project offers a comprehensive database of computed material properties.
+
+  - category: "Space Science & Astronomy"
+    content: |
+      #### Overview
+      Tools and platforms for astronomical observation planning, space mission data analysis, and earth observation. Includes NASA mission support tools and comprehensive data portals for space science research.
+      
+      #### Key Applications
+      - Astronomical observation planning
+      - Space mission data analysis
+      - Earth observation and climate monitoring
+      - Quantum sensing and advanced computing research
+
+    subcategories:
+      - subcategory: "JWST Tools"
+        content: |
+          The James Webb Space Telescope suite provides tools for observation planning, exposure time calculation, and real-time instrument status monitoring.
+      
+      - subcategory: "Proposal & Observation Planning"
+        content: |
+          APT streamlines the proposal submission and observation planning process for major telescopes including JWST and HST.
+      
+      - subcategory: "NASA Platforms & Programs"
+        content: |
+          Earthdata provides comprehensive earth observation data from NASA satellites. Advanced programs like NASA ACT and Quantum Initiative push computational frontiers.
+      
+      - subcategory: "Data & Modeling Centers"
+        content: |
+          CCMC coordinates community modeling efforts, while NASA data APIs provide programmatic access to planetary science data.
+      
+      - subcategory: "Space Science References"
+        content: |
+          LMSAL supports solar and astrophysics research with specialized tools and data services.
+
+  - category: "Neuroimaging & Brain Computing"
+    content: |
+      #### Overview
+      Tools for analyzing brain imaging data, including fMRI, structural MRI, and PET imaging. Includes brain-computer interface hardware and comprehensive neuroimaging platforms.
+      
+      #### Key Applications
+      - Brain imaging analysis
+      - Neurological disease research
+      - Brain-computer interface development
+      - Clinical neuroimaging assessment
+
+    subcategories:
+      - subcategory: "Neuroimaging Platforms"
+        content: |
+          SPM and FreeSurfer are standards for fMRI analysis and structural brain analysis respectively. Amira and MIMneuro provide specialized clinical neuroimaging capabilities.
+      
+      - subcategory: "Comprehensive Platforms"
+        content: |
+          Neurodesk provides containerized neuroimaging tools, BrainForge offers cloud-based analysis, and Neuroconductor brings neuroimaging to R.
+      
+      - subcategory: "Brain-Computer Interface"
+        content: |
+          OpenBCI provides open-source BCI hardware for research, while NeuroSky offers consumer-grade EEG sensors for brainwave monitoring.
+      
+      - subcategory: "Reference & Resources"
+        content: |
+          NITRC (Neuroimaging Informatics Tools and Resources Clearinghouse) aggregates neuroimaging software, data, and community resources.
+
+  - category: "Data & Visualization Resources"
+    content: |
+      #### Overview
+      Supporting infrastructure for data discovery, access, and visualization. Includes open data catalogs and specialized visualization tools for understanding complex information.
+      
+      #### Key Applications
+      - Open data discovery
+      - Data API access
+      - Algorithm visualization
+      - Database management
+
+    subcategories:
+      - subcategory: "Data Catalogs & APIs"
+        content: |
+          CKAN and Data.gov provide standardized catalogs for discovering and accessing open data from governments and organizations.
+      
+      - subcategory: "Visualization & Algorithm Tools"
+        content: |
+          Algorithm Visualizer makes complex algorithms understandable through interactive visualizations.
+      
+      - subcategory: "Databases"
+        content: |
+          MySQL provides robust relational database capabilities for data storage and management at scale.
