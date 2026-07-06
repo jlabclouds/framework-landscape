@@ -69,7 +69,7 @@ landscape:
           - item:
             description: Spring Cloud microservices framework
             homepage_url: https://spring.io/projects/spring-cloud
-            logo: spring.svg
+            logo: spring-icon-512x512.png
             name: Spring Cloud
             project: graduated
             repo_url: https://github.com/spring-cloud/spring-cloud-release
