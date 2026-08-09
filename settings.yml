@@ -195,6 +195,15 @@ groups:
       - ROS
       - Q#
       - Julia
+  - name: Cloud Providers
+    categories:
+      - AWS
+      - Microsoft Azure
+      - Google Cloud Platform
+      - Oracle Cloud Infrastructure
+      - IBM Cloud
+      - Broadcom
+      - Cross-Cloud Services
 
 # Header (optional)
 #
