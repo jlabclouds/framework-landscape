@@ -7,6 +7,9 @@
 [abinit](https://www.abinit.org) | graduated |  |  |  |  |  | 0 |  |
 [actix](https://actix.rs) | sandbox |  |  |  |  |  | 0 |  |
 [algorithm visualizer](https://algorithm-visualizer.org/) | graduated |  |  |  |  |  | 0 |  |
+[amazon ec2](https://aws.amazon.com/ec2/) | graduated |  |  |  |  |  | 0 |  |
+[amazon rds](https://aws.amazon.com/rds/) | graduated |  |  |  |  |  | 0 |  |
+[amazon s3](https://aws.amazon.com/s3/) | graduated |  |  |  |  |  | 0 |  |
 [amira](https://www.thermofisher.com/us/en/home/electron-microscopy/products/software-em-3d-vis/amira-software.html) | graduated |  |  |  |  |  | 0 |  |
 [ansys](https://www.ansys.com/) | graduated |  |  |  |  |  | 0 |  |
 [ant](https://ant.apache.org) | graduated |  |  |  |  |  | 0 |  |
@@ -15,8 +18,11 @@
 [asp.net core](https://dotnet.microsoft.com/apps/aspnet) | graduated |  |  |  |  |  | 0 |  |
 [autocad](https://www.autodesk.com) | graduated |  |  |  |  |  | 0 |  |
 [avogadro](https://avogadro.cc) | graduated |  |  |  |  |  | 0 |  |
+[azure blob storage](https://azure.microsoft.com/services/storage/blobs/) | graduated |  |  |  |  |  | 0 |  |
 [azure maps](https://azure.microsoft.com/en-us/services/cognitive-services/maps) | graduated |  |  |  |  |  | 0 |  |
 [azure quantum](https://quantum.microsoft.com) | graduated |  |  |  |  |  | 0 |  |
+[azure sql database](https://azure.microsoft.com/services/sql-database/) | graduated |  |  |  |  |  | 0 |  |
+[azure virtual machines](https://azure.microsoft.com/services/virtual-machines/) | graduated |  |  |  |  |  | 0 |  |
 [bioconductor](https://www.bioconductor.org) | graduated |  |  |  |  |  | 0 |  |
 [biojava](https://biojava.org) | graduated |  |  |  |  |  | 0 |  |
 [bioperl](https://bioperl.org) | graduated |  |  |  |  |  | 0 |  |
@@ -33,6 +39,8 @@
 [chemdraw](https://www.revvitysignals.com) | graduated |  |  |  |  |  | 0 |  |
 [civil 3d](https://www.autodesk.com) | graduated |  |  |  |  |  | 0 |  |
 [ckan](https://docs.ckan.org/en/2.11/api/index.html) | graduated |  |  |  |  |  | 0 |  |
+[cloud sql](https://cloud.google.com/sql) | graduated |  |  |  |  |  | 0 |  |
+[cloud storage](https://cloud.google.com/storage) | graduated |  |  |  |  |  | 0 |  |
 [cmake](https://cmake.org) | graduated |  |  |  |  |  | 0 |  |
 [cntk](https://cntk.ai) | graduated |  |  |  |  |  | 0 |  |
 [coiled](https://docs.coiled.io/) | graduated |  |  |  |  |  | 0 |  |
@@ -63,6 +71,7 @@
 [gdal](https://gdal.org) | graduated |  |  |  |  |  | 0 |  |
 [geant4](https://geant4.web.cern.ch/) | graduated |  |  |  |  |  | 0 |  |
 [glassfish](https://glassfish.org) | graduated |  |  |  |  |  | 0 |  |
+[google compute engine](https://cloud.google.com/compute) | graduated |  |  |  |  |  | 0 |  |
 [google earth engine](https://console.cloud.google.com/apis/library/earthengine.googleapis.com) | graduated |  |  |  |  |  | 0 |  |
 [google maps platform](https://cloud.google.com/maps-platform) | graduated |  |  |  |  |  | 0 |  |
 [gpaw](https://gpaw.org) | graduated |  |  |  |  |  | 0 |  |

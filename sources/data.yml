@@ -1,4 +1,6 @@
 landscape:
+
+# Frameworks Landscape
   - category:
     name: Java
     subcategories:
@@ -610,6 +612,8 @@ landscape:
             name: StatsPlots.jl
             project: graduated
             repo_url: https://github.com/JuliaPlots/StatsPlots.jl
+
+# Tools Landscape            
   - category:
     name: Notebooks & Documentation
     subcategories:
@@ -1522,3 +1526,2065 @@ landscape:
             logo: mysql.svg
             name: MySQL
             project: graduated
+
+# Unified Cloud Providers Landscape Data
+#
+# Multi-cloud landscape unifying AWS, Azure, GCP, and OCI
+# Designed for easy expansion with additional cloud providers
+# Reference: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+  - name: AWS
+    subcategories:
+      - name: Compute Services
+        items:
+          - name: Amazon EC2
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            description: Secure and resizable compute capacity with flexible instance types
+            pricing_url: https://aws.amazon.com/ec2/pricing/
+            homepage_url: https://aws.amazon.com/ec2/
+            logo: logos/cncf.svg
+            project: graduated
+            repo_url: https://github.com/aws/aws-ec2-instance-types
+            twitter: https://twitter.com/awscloud
+          - name: AWS Lambda
+            description: Serverless compute for event-driven workloads
+            pricing_url: https://aws.amazon.com/lambda/pricing/
+            homepage_url: https://aws.amazon.com/lambda/
+            logo: logos/cncf.svg
+          - name: Amazon ECS
+            description: Fully managed container orchestration service
+            pricing_url: https://aws.amazon.com/ecs/pricing/
+            homepage_url: https://aws.amazon.com/ecs/
+            logo: logos/cncf.svg
+          - name: Amazon EKS
+            description: Managed Kubernetes service
+            homepage_url: https://aws.amazon.com/eks/
+            logo: logos/cncf.svg
+          - name: Elastic Beanstalk
+            description: Easy to deploy and scale web applications and services
+            homepage_url: https://aws.amazon.com/elasticbeanstalk/
+            logo: logos/cncf.svg
+          - name: Auto Scaling
+            description: Automatic scaling of EC2 instances and resources
+            homepage_url: https://aws.amazon.com/autoscaling/
+            logo: logos/cncf.svg
+          - name: Amazon Lightsail
+            description: Simple virtual servers, storage, and databases
+            homepage_url: https://aws.amazon.com/lightsail/
+            logo: logos/cncf.svg
+          - name: AWS App Runner
+            description: Fully managed service to build and run containerized applications
+            homepage_url: https://aws.amazon.com/apprunner/
+            logo: logos/cncf.svg
+          - name: AWS Batch
+            description: Fully managed batch computing service
+            homepage_url: https://aws.amazon.com/batch/
+            logo: logos/cncf.svg
+          - name: AWS Outposts
+            description: Fully managed service for on-premises AWS infrastructure
+            homepage_url: https://aws.amazon.com/outposts/
+            logo: logos/cncf.svg
+          - name: VMware Cloud on AWS
+            description: VMware infrastructure running on AWS
+            homepage_url: https://aws.amazon.com/vmware/
+            logo: logos/cncf.svg
+          - name: AWS Wavelength
+            description: Deliver ultra-low latency applications
+            homepage_url: https://aws.amazon.com/wavelength/
+            logo: logos/cncf.svg
+
+      - name: Storage Services
+        items:
+          - name: Amazon S3
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            description: Scalable object storage service
+            pricing_url: https://aws.amazon.com/s3/pricing/
+            homepage_url: https://aws.amazon.com/s3/
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Amazon EBS
+            description: Persistent block storage volumes
+            homepage_url: https://aws.amazon.com/ebs/
+            logo: logos/cncf.svg
+          - name: Amazon EFS
+            description: Serverless elastic NFS file system
+            homepage_url: https://aws.amazon.com/efs/
+            logo: logos/cncf.svg
+          - name: Amazon Glacier
+            description: Low-cost storage for data archiving and long-term backup
+            homepage_url: https://aws.amazon.com/glacier/
+            logo: logos/cncf.svg
+          - name: AWS Storage Gateway
+            description: Hybrid cloud storage with local caching
+            homepage_url: https://aws.amazon.com/storagegateway/
+            logo: logos/cncf.svg
+          - name: AWS Backup
+            description: Centralized, policy-based backup service
+            homepage_url: https://aws.amazon.com/backup/
+            logo: logos/cncf.svg
+          - name: AWS DataSync
+            description: Automate large-scale data transfers
+            homepage_url: https://aws.amazon.com/datasync/
+            logo: logos/cncf.svg
+          - name: Amazon FSx for Windows File Server
+            description: Fully managed Windows file storage
+            homepage_url: https://aws.amazon.com/fsx/windows/
+            logo: logos/cncf.svg
+          - name: Amazon FSx for Lustre
+            description: High-performance file system for computing workloads
+            homepage_url: https://aws.amazon.com/fsx/lustre/
+            logo: logos/cncf.svg
+          - name: AWS Snow Family
+            description: Physical devices for secure data transfer and edge computing
+            homepage_url: https://aws.amazon.com/snow/
+            logo: logos/cncf.svg
+
+      - name: Database Services
+        items:
+          - name: Amazon RDS
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            description: Managed relational database
+            homepage_url: https://aws.amazon.com/rds/
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Amazon DynamoDB
+            description: Fast and flexible NoSQL database
+            homepage_url: https://aws.amazon.com/dynamodb/
+            logo: logos/cncf.svg
+          - name: Amazon ElastiCache
+            description: In-memory caching service
+            homepage_url: https://aws.amazon.com/elasticache/
+            logo: logos/cncf.svg
+          - name: Amazon Aurora
+            description: MySQL and PostgreSQL-compatible relational database
+            homepage_url: https://aws.amazon.com/rds/aurora/
+            logo: logos/cncf.svg
+          - name: Amazon DocumentDB
+            description: MongoDB-compatible document database
+            homepage_url: https://aws.amazon.com/documentdb/
+            logo: logos/cncf.svg
+          - name: Amazon Neptune
+            description: Fast and reliable graph database
+            homepage_url: https://aws.amazon.com/neptune/
+            logo: logos/cncf.svg
+          - name: Amazon QLDB
+            description: Quantum Ledger Database for immutable logging
+            homepage_url: https://aws.amazon.com/qldb/
+            logo: logos/cncf.svg
+          - name: Amazon Timestream
+            description: Time series database for IoT and real-time analytics
+            homepage_url: https://aws.amazon.com/timestream/
+            logo: logos/cncf.svg
+          - name: Amazon Redshift
+            description: Fast, fully managed data warehouse
+            homepage_url: https://aws.amazon.com/redshift/
+            logo: logos/cncf.svg
+          - name: AWS Database Migration Service
+            description: Migrate databases with minimal downtime
+            homepage_url: https://aws.amazon.com/dms/
+            logo: logos/cncf.svg
+
+      - name: Analytics Services
+        items:
+          - name: Amazon Redshift
+            description: Fast, fully managed data warehouse
+            homepage_url: https://aws.amazon.com/redshift/
+            logo: logos/cncf.svg
+          - name: Amazon Athena
+            description: Interactive query service for data in S3
+            homepage_url: https://aws.amazon.com/athena/
+            logo: logos/cncf.svg
+          - name: Amazon EMR
+            description: Big data processing service for Apache Spark and Hadoop
+            homepage_url: https://aws.amazon.com/emr/
+            logo: logos/cncf.svg
+          - name: Amazon Kinesis Data Streams
+            description: Real-time data streaming service
+            homepage_url: https://aws.amazon.com/kinesis/data-streams/
+            logo: logos/cncf.svg
+          - name: Amazon Kinesis Data Firehose
+            description: Load streaming data into data stores and analytics tools
+            homepage_url: https://aws.amazon.com/kinesis/data-firehose/
+            logo: logos/cncf.svg
+          - name: Amazon Kinesis Video Streams
+            description: Stream video from connected devices
+            homepage_url: https://aws.amazon.com/kinesis/video-streams/
+            logo: logos/cncf.svg
+          - name: AWS Glue
+            description: Extract, transform, and load data
+            homepage_url: https://aws.amazon.com/glue/
+            logo: logos/cncf.svg
+          - name: AWS Lake Formation
+            description: Build secure data lakes
+            homepage_url: https://aws.amazon.com/lake-formation/
+            logo: logos/cncf.svg
+          - name: Amazon QuickSight
+            description: Business intelligence and dashboards
+            homepage_url: https://aws.amazon.com/quicksight/
+            logo: logos/cncf.svg
+          - name: AWS DataBrew
+            description: Prepare and clean data using visual interface
+            homepage_url: https://aws.amazon.com/databrew/
+            logo: logos/cncf.svg
+          - name: Amazon Lookout for Vision
+            description: Detect visual anomalies with machine learning
+            homepage_url: https://aws.amazon.com/lookout-for-vision/
+            logo: logos/cncf.svg
+          - name: SageMaker Data Wrangler
+            description: Prepare data for machine learning
+            homepage_url: https://aws.amazon.com/sagemaker/data-wrangler/
+            logo: logos/cncf.svg
+
+      - name: AI/ML Services
+        items:
+          - name: Amazon SageMaker
+            description: Build, train, and deploy machine learning models
+            homepage_url: https://aws.amazon.com/sagemaker/
+            logo: logos/cncf.svg
+          - name: SageMaker Studio
+            description: Integrated development environment for machine learning
+            homepage_url: https://aws.amazon.com/sagemaker/studio/
+            logo: logos/cncf.svg
+          - name: SageMaker Pipelines
+            description: CI/CD for machine learning
+            homepage_url: https://aws.amazon.com/sagemaker/pipelines/
+            logo: logos/cncf.svg
+          - name: SageMaker Feature Store
+            description: Store, discover, and share features for ML
+            homepage_url: https://aws.amazon.com/sagemaker/feature-store/
+            logo: logos/cncf.svg
+          - name: SageMaker Model Registry
+            description: Catalog and manage machine learning models
+            homepage_url: https://aws.amazon.com/sagemaker/model-registry/
+            logo: logos/cncf.svg
+          - name: SageMaker Debugger
+            description: Debug and monitor machine learning training
+            homepage_url: https://aws.amazon.com/sagemaker/debugger/
+            logo: logos/cncf.svg
+          - name: SageMaker Monitoring
+            description: Monitor machine learning models in production
+            homepage_url: https://aws.amazon.com/sagemaker/model-monitor/
+            logo: logos/cncf.svg
+          - name: Amazon Rekognition
+            description: Image and video recognition service
+            homepage_url: https://aws.amazon.com/rekognition/
+            logo: logos/cncf.svg
+          - name: Amazon Comprehend
+            description: Natural language processing service
+            homepage_url: https://aws.amazon.com/comprehend/
+            logo: logos/cncf.svg
+          - name: Amazon Polly
+            description: Text-to-speech service
+            homepage_url: https://aws.amazon.com/polly/
+            logo: logos/cncf.svg
+          - name: Amazon Lex
+            description: Build conversational interfaces
+            homepage_url: https://aws.amazon.com/lex/
+            logo: logos/cncf.svg
+          - name: Amazon Translate
+            description: Neural machine translation service
+            homepage_url: https://aws.amazon.com/translate/
+            logo: logos/cncf.svg
+          - name: Amazon Forecast
+            description: Time series forecasting service
+            homepage_url: https://aws.amazon.com/forecast/
+            logo: logos/cncf.svg
+          - name: Amazon Lookout for Metrics
+            description: Automatically detect anomalies
+            homepage_url: https://aws.amazon.com/lookout-for-metrics/
+            logo: logos/cncf.svg
+          - name: Amazon Lookout for Equipment
+            description: Detect equipment anomalies using machine learning
+            homepage_url: https://aws.amazon.com/lookout-for-equipment/
+            logo: logos/cncf.svg
+          - name: Amazon Personalize
+            description: Real-time personalization and recommendations
+            homepage_url: https://aws.amazon.com/personalize/
+            logo: logos/cncf.svg
+          - name: Amazon Textract
+            description: Extract text and data from documents
+            homepage_url: https://aws.amazon.com/textract/
+            logo: logos/cncf.svg
+          - name: Amazon Contact Lens for Amazon Connect
+            description: Analyze customer interactions with machine learning
+            homepage_url: https://aws.amazon.com/connect/contact-lens/
+            logo: logos/cncf.svg
+
+      - name: Networking & Content Delivery
+        items:
+          - name: Amazon VPC
+            description: Isolated cloud network
+            homepage_url: https://aws.amazon.com/vpc/
+            logo: logos/cncf.svg
+          - name: Amazon CloudFront
+            description: Content delivery network
+            homepage_url: https://aws.amazon.com/cloudfront/
+            logo: logos/cncf.svg
+          - name: Amazon Route 53
+            description: Scalable domain name system and traffic management
+            homepage_url: https://aws.amazon.com/route53/
+            logo: logos/cncf.svg
+          - name: Elastic Load Balancing
+            description: Distribute incoming traffic across multiple targets
+            homepage_url: https://aws.amazon.com/elasticloadbalancing/
+            logo: logos/cncf.svg
+          - name: Application Load Balancer
+            description: Layer 7 load balancer for modern applications
+            homepage_url: https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/
+            logo: logos/cncf.svg
+          - name: Network Load Balancer
+            description: Ultra-high performance load balancer
+            homepage_url: https://aws.amazon.com/elasticloadbalancing/networkloadbalancer/
+            logo: logos/cncf.svg
+          - name: AWS Direct Connect
+            description: Dedicated network connection to AWS
+            homepage_url: https://aws.amazon.com/directconnect/
+            logo: logos/cncf.svg
+          - name: AWS VPN
+            description: Securely connect to AWS resources
+            homepage_url: https://aws.amazon.com/vpn/
+            logo: logos/cncf.svg
+          - name: AWS PrivateLink
+            description: Provide private connectivity between VPCs and services
+            homepage_url: https://aws.amazon.com/privatelink/
+            logo: logos/cncf.svg
+          - name: VPC Peering
+            description: Connect VPCs together
+            homepage_url: https://docs.aws.amazon.com/vpc/latest/peering/
+            logo: logos/cncf.svg
+          - name: AWS Shield
+            description: DDoS protection service
+            homepage_url: https://aws.amazon.com/shield/
+            logo: logos/cncf.svg
+          - name: AWS WAF
+            description: Web application firewall
+            homepage_url: https://aws.amazon.com/waf/
+            logo: logos/cncf.svg
+          - name: AWS Firewall Manager
+            description: Centralized firewall management
+            homepage_url: https://aws.amazon.com/waf/firewall-manager/
+            logo: logos/cncf.svg
+          - name: Amazon CloudWatch
+            description: Monitoring and observability service
+            homepage_url: https://aws.amazon.com/cloudwatch/
+            logo: logos/cncf.svg
+          - name: VPC Flow Logs
+            description: Capture IP traffic information
+            homepage_url: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html
+            logo: logos/cncf.svg
+          - name: AWS Transit Gateway
+            description: Connect VPCs and on-premises networks
+            homepage_url: https://aws.amazon.com/transit-gateway/
+            logo: logos/cncf.svg
+          - name: AWS App Mesh
+            description: Service mesh for microservices
+            homepage_url: https://aws.amazon.com/app-mesh/
+            logo: logos/cncf.svg
+          - name: AWS Ground Station
+            description: Fully managed ground station as a service
+            homepage_url: https://aws.amazon.com/ground-station/
+            logo: logos/cncf.svg
+          - name: Amazon LEO
+            description: Low Earth Orbit satellite connectivity service
+            homepage_url: https://aws.amazon.com/leo/
+            logo: logos/cncf.svg
+
+      - name: Data Integration & Migration
+        items:
+          - name: AWS Database Migration Service
+            description: Migrate databases with minimal downtime
+            homepage_url: https://aws.amazon.com/dms/
+            logo: logos/cncf.svg
+          - name: AWS Glue
+            description: Extract, transform, and load data
+            homepage_url: https://aws.amazon.com/glue/
+            logo: logos/cncf.svg
+          - name: AWS DataSync
+            description: Automate large-scale data transfers
+            homepage_url: https://aws.amazon.com/datasync/
+            logo: logos/cncf.svg
+          - name: AWS Transfer Family
+            description: SFTP, FTPS, and FTP service
+            homepage_url: https://aws.amazon.com/transfer/
+            logo: logos/cncf.svg
+          - name: AWS DataBrew
+            description: Prepare and clean data using visual interface
+            homepage_url: https://aws.amazon.com/databrew/
+            logo: logos/cncf.svg
+          - name: Amazon Kinesis
+            description: Real-time data streaming platform
+            homepage_url: https://aws.amazon.com/kinesis/
+            logo: logos/cncf.svg
+          - name: Amazon MQ
+            description: Managed message broker service
+            homepage_url: https://aws.amazon.com/amazon-mq/
+            logo: logos/cncf.svg
+          - name: Amazon AppFlow
+            description: Secure data transfer between applications
+            homepage_url: https://aws.amazon.com/appflow/
+            logo: logos/cncf.svg
+          - name: AWS Ground Station
+            description: Fully managed ground station as a service
+            homepage_url: https://aws.amazon.com/ground-station/
+            logo: logos/cncf.svg
+
+      - name: AWS Applications
+        items:
+          - name: Amazon GuardDuty
+            description: Threat detection and continuous security monitoring
+            homepage_url: https://aws.amazon.com/guardduty/
+            logo: logos/cncf.svg
+          - name: AWS Marketplace
+            description: Third-party software and applications for AWS
+            homepage_url: https://aws.amazon.com/marketplace/
+            logo: logos/cncf.svg
+          - name: AWS WorkSpaces
+            description: Managed desktop computing service
+            homepage_url: https://aws.amazon.com/workspaces/
+            logo: logos/cncf.svg
+          - name: Amazon Connect
+            description: Cloud-based contact center solution
+            homepage_url: https://aws.amazon.com/connect/
+            logo: logos/cncf.svg
+          - name: AWS IoT Core
+            description: Managed IoT platform for connected devices
+            homepage_url: https://aws.amazon.com/iot-core/
+            logo: logos/cncf.svg
+          - name: Amazon Chime
+            description: Communication service for meetings and messaging
+            homepage_url: https://aws.amazon.com/chime/
+            logo: logos/cncf.svg
+          - name: AWS Certificate Manager
+            description: SSL/TLS certificate management
+            homepage_url: https://aws.amazon.com/certificate-manager/
+            logo: logos/cncf.svg
+          - name: AWS Secrets Manager
+            description: Manage secrets and credentials
+            homepage_url: https://aws.amazon.com/secrets-manager/
+            logo: logos/cncf.svg
+          - name: AWS Config
+            description: Track AWS resource configurations
+            homepage_url: https://aws.amazon.com/config/
+            logo: logos/cncf.svg
+          - name: AWS CloudTrail
+            description: Track user activity and API calls
+            homepage_url: https://aws.amazon.com/cloudtrail/
+            logo: logos/cncf.svg
+
+  - name: Microsoft Azure
+    subcategories:
+      - name: Compute Services
+        items:
+          - name: Azure Virtual Machines
+            crunchbase: https://www.crunchbase.com/organization/microsoft-azure
+            description: Scalable computing resources with Windows or Linux
+            pricing_url: https://azure.microsoft.com/pricing/details/virtual-machines/
+            homepage_url: https://azure.microsoft.com/services/virtual-machines/
+            logo: logos/cncf.svg
+            project: graduated
+          - name: App Service
+            description: Build and host web apps, mobile backends, and RESTful APIs
+            pricing_url: https://azure.microsoft.com/pricing/details/app-service/
+            homepage_url: https://azure.microsoft.com/services/app-service/
+            logo: logos/cncf.svg
+          - name: Azure Functions
+            description: Event-driven serverless compute
+            pricing_url: https://azure.microsoft.com/pricing/details/functions/
+            homepage_url: https://azure.microsoft.com/services/functions/
+            logo: logos/cncf.svg
+          - name: Azure Container Instances
+            description: Serverless container deployment
+            pricing_url: https://azure.microsoft.com/pricing/details/container-instances/
+            homepage_url: https://azure.microsoft.com/services/container-instances/
+            logo: logos/cncf.svg
+          - name: Azure Kubernetes Service (AKS)
+            description: Fully managed Kubernetes service
+            pricing_url: https://azure.microsoft.com/pricing/details/kubernetes-service/
+            homepage_url: https://azure.microsoft.com/services/kubernetes-service/
+            logo: logos/cncf.svg
+          - name: Azure Batch
+            description: Large-scale parallel and high-performance computing
+            pricing_url: https://azure.microsoft.com/pricing/details/batch/
+            homepage_url: https://azure.microsoft.com/services/batch/
+            logo: logos/cncf.svg
+          - name: Virtual Machine Scale Sets
+            description: Automatically scale VMs based on demand
+            pricing_url: https://azure.microsoft.com/pricing/details/virtual-machine-scale-sets/
+            homepage_url: https://azure.microsoft.com/services/virtual-machine-scale-sets/
+            logo: logos/cncf.svg
+          - name: Service Fabric
+            description: Distributed systems platform for microservices
+            pricing_url: https://azure.microsoft.com/pricing/details/service-fabric/
+            homepage_url: https://azure.microsoft.com/services/service-fabric/
+            logo: logos/cncf.svg
+          - name: Azure Container Apps
+            description: Build and deploy containerized apps on serverless platform
+            pricing_url: https://azure.microsoft.com/pricing/details/container-apps/
+            homepage_url: https://azure.microsoft.com/services/container-apps/
+            logo: logos/cncf.svg
+          - name: Dedicated Hosts
+            description: Dedicated physical servers for VMs
+            pricing_url: https://azure.microsoft.com/pricing/details/virtual-machines/dedicated-host/
+            homepage_url: https://azure.microsoft.com/services/virtual-machines/dedicated-host/
+            logo: logos/cncf.svg
+          - name: Azure VMware Solution
+            description: Run VMware workloads on Azure
+            pricing_url: https://azure.microsoft.com/pricing/details/azure-vmware/
+            homepage_url: https://azure.microsoft.com/services/azure-vmware/
+            logo: logos/cncf.svg
+          - name: Azure Spot Virtual Machines
+            description: Use unused Azure compute capacity at discounted rates
+            pricing_url: https://azure.microsoft.com/pricing/details/virtual-machines/spot/
+            homepage_url: https://azure.microsoft.com/services/virtual-machines/spot/
+            logo: logos/cncf.svg
+
+      - name: Storage Services
+        items:
+          - name: Azure Blob Storage
+            crunchbase: https://www.crunchbase.com/organization/microsoft-azure
+            description: Massively scalable cloud object storage
+            pricing_url: https://azure.microsoft.com/pricing/details/storage/blobs/
+            homepage_url: https://azure.microsoft.com/services/storage/blobs/
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Disk Storage
+            description: Block-level storage volumes for Azure VMs
+            pricing_url: https://azure.microsoft.com/pricing/details/managed-disks/
+            homepage_url: https://azure.microsoft.com/services/managed-disks/
+            logo: logos/cncf.svg
+          - name: File Share
+            description: Fully managed file shares accessible via SMB protocol
+            pricing_url: https://azure.microsoft.com/pricing/details/storage/files/
+            homepage_url: https://azure.microsoft.com/services/storage/files/
+            logo: logos/cncf.svg
+          - name: Table Storage
+            description: NoSQL key-value store for structured data
+            pricing_url: https://azure.microsoft.com/pricing/details/storage/tables/
+            homepage_url: https://azure.microsoft.com/services/storage/tables/
+            logo: logos/cncf.svg
+          - name: Archive Storage
+            description: Long-term retention storage with lowest cost
+            pricing_url: https://azure.microsoft.com/pricing/details/storage/archive/
+            homepage_url: https://azure.microsoft.com/services/storage/archive/
+            logo: logos/cncf.svg
+          - name: Data Lake Storage
+            description: Scalable secure data lake for analytics
+            pricing_url: https://azure.microsoft.com/pricing/details/storage/data-lake-storage/
+            homepage_url: https://azure.microsoft.com/services/storage/data-lake-storage/
+            logo: logos/cncf.svg
+          - name: Managed Disks
+            description: Persistent block storage for VMs
+            pricing_url: https://azure.microsoft.com/pricing/details/managed-disks/
+            homepage_url: https://azure.microsoft.com/services/managed-disks/
+            logo: logos/cncf.svg
+          - name: Ultra Disks
+            description: Ultra-high performance disk storage
+            pricing_url: https://azure.microsoft.com/pricing/details/managed-disks/ultra/
+            homepage_url: https://azure.microsoft.com/services/managed-disks/ultra/
+            logo: logos/cncf.svg
+          - name: NetApp Files
+            description: Enterprise-grade file sharing with NetApp
+            pricing_url: https://azure.microsoft.com/pricing/details/netapp/
+            homepage_url: https://azure.microsoft.com/services/netapp/
+            logo: logos/cncf.svg
+
+      - name: Database Services
+        items:
+          - name: Azure SQL Database
+            crunchbase: https://www.crunchbase.com/organization/microsoft-azure
+            description: Fully managed SQL Server database
+            pricing_url: https://azure.microsoft.com/pricing/details/sql-database/
+            homepage_url: https://azure.microsoft.com/services/sql-database/
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Cosmos DB
+            description: Globally distributed NoSQL database
+            pricing_url: https://azure.microsoft.com/pricing/details/cosmos-db/
+            homepage_url: https://azure.microsoft.com/services/cosmos-db/
+            logo: logos/cncf.svg
+          - name: Database for MySQL
+            description: Managed MySQL relational database
+            pricing_url: https://azure.microsoft.com/pricing/details/mysql/
+            homepage_url: https://azure.microsoft.com/services/mysql/
+            logo: logos/cncf.svg
+          - name: Database for PostgreSQL
+            description: Managed PostgreSQL relational database
+            pricing_url: https://azure.microsoft.com/pricing/details/postgresql/
+            homepage_url: https://azure.microsoft.com/services/postgresql/
+            logo: logos/cncf.svg
+          - name: Database for MariaDB
+            description: Managed MariaDB relational database
+            pricing_url: https://azure.microsoft.com/pricing/details/mariadb/
+            homepage_url: https://azure.microsoft.com/services/mariadb/
+            logo: logos/cncf.svg
+          - name: HorizonDB
+            description: Time series database for analytics
+            pricing_url: https://azure.microsoft.com/pricing/details/data-explorer/
+            homepage_url: https://azure.microsoft.com/services/data-explorer/
+            logo: logos/cncf.svg
+          - name: Redis Cache
+            description: In-memory data structure store
+            pricing_url: https://azure.microsoft.com/pricing/details/cache/
+            homepage_url: https://azure.microsoft.com/services/cache/
+            logo: logos/cncf.svg
+          - name: SQL Managed Instance
+            description: Managed SQL Server instance with high compatibility
+            pricing_url: https://azure.microsoft.com/pricing/details/sql-managed-instance/
+            homepage_url: https://azure.microsoft.com/services/sql-managed-instance/
+            logo: logos/cncf.svg
+          - name: SQL Edge
+            description: SQL database engine for edge computing
+            pricing_url: https://azure.microsoft.com/pricing/details/sql-edge/
+            homepage_url: https://azure.microsoft.com/services/sql-edge/
+            logo: logos/cncf.svg
+          - name: Database Migration Service
+            description: Migrate databases to Azure with minimal downtime
+            pricing_url: https://azure.microsoft.com/pricing/details/database-migration/
+            homepage_url: https://azure.microsoft.com/services/database-migration/
+            logo: logos/cncf.svg
+
+      - name: Analytics Services
+        items:
+          - name: Synapse Analytics
+            description: Unified analytics platform
+            homepage_url: https://azure.microsoft.com/services/synapse-analytics/
+            logo: logos/cncf.svg
+          - name: Data Factory
+            description: Hybrid data integration service
+            homepage_url: https://azure.microsoft.com/services/data-factory/
+            logo: logos/cncf.svg
+          - name: Stream Analytics
+            description: Real-time data stream processing
+            homepage_url: https://azure.microsoft.com/services/stream-analytics/
+            logo: logos/cncf.svg
+          - name: Databricks
+            description: Apache Spark-based analytics platform
+            homepage_url: https://azure.microsoft.com/services/databricks/
+            logo: logos/cncf.svg
+          - name: HDInsight
+            description: Managed Hadoop, Spark, and Hive clusters
+            homepage_url: https://azure.microsoft.com/services/hdinsight/
+            logo: logos/cncf.svg
+          - name: Data Lake Analytics
+            description: On-demand analytics job service
+            homepage_url: https://azure.microsoft.com/services/data-lake-analytics/
+            logo: logos/cncf.svg
+          - name: Power BI
+            description: Business intelligence and analytics
+            homepage_url: https://powerbi.microsoft.com/
+            logo: logos/cncf.svg
+          - name: Analysis Services
+            description: Enterprise-grade data modeling and analysis
+            homepage_url: https://azure.microsoft.com/services/analysis-services/
+            logo: logos/cncf.svg
+          - name: Data Share
+            description: Simple and safe data sharing service
+            homepage_url: https://azure.microsoft.com/services/data-share/
+            logo: logos/cncf.svg
+          - name: Purview
+            description: Unified data governance and cataloging
+            homepage_url: https://azure.microsoft.com/services/purview/
+            logo: logos/cncf.svg
+
+      - name: AI/ML Services
+        items:
+          - name: Azure AI Services
+            description: Comprehensive AI services and tools
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/
+            logo: logos/cncf.svg
+          - name: Azure Machine Learning
+            description: Enterprise-grade machine learning platform
+            homepage_url: https://azure.microsoft.com/services/machine-learning/
+            logo: logos/cncf.svg
+          - name: Cognitive Services
+            description: APIs for vision, speech, language, and decision
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/
+            logo: logos/cncf.svg
+          - name: Azure OpenAI
+            description: Access to OpenAI models on Azure
+            homepage_url: https://azure.microsoft.com/services/openai-service/
+            logo: logos/cncf.svg
+          - name: Bot Service
+            description: Build and deploy intelligent bots
+            homepage_url: https://azure.microsoft.com/services/bot-services/
+            logo: logos/cncf.svg
+          - name: Form Recognizer
+            description: Extract text and data from documents
+            homepage_url: https://azure.microsoft.com/services/applied-ai-services/form-recognizer/
+            logo: logos/cncf.svg
+          - name: Azure Search
+            description: Cloud search service for web and mobile apps
+            homepage_url: https://azure.microsoft.com/services/search/
+            logo: logos/cncf.svg
+          - name: Computer Vision
+            description: Analyze images and videos
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/computer-vision/
+            logo: logos/cncf.svg
+          - name: Language Understanding
+            description: Natural language understanding service
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/language-understanding/
+            logo: logos/cncf.svg
+          - name: Speech Services
+            description: Speech-to-text, text-to-speech, and translation
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/speech-services/
+            logo: logos/cncf.svg
+          - name: Translator
+            description: Real-time text and document translation
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/translator/
+            logo: logos/cncf.svg
+          - name: Anomaly Detector
+            description: Detect anomalies in time series data
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/anomaly-detector/
+            logo: logos/cncf.svg
+          - name: Content Moderator
+            description: Content moderation for images, text, and videos
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/content-moderator/
+            logo: logos/cncf.svg
+          - name: Personalizer
+            description: Real-time personalization service
+            homepage_url: https://azure.microsoft.com/services/cognitive-services/personalizer/
+            logo: logos/cncf.svg
+
+      - name: Networking & Content Delivery
+        items:
+          - name: Virtual Network
+            description: Isolated network in Azure cloud
+            homepage_url: https://azure.microsoft.com/services/virtual-network/
+            logo: logos/cncf.svg
+          - name: Load Balancer
+            description: Layer 4 load balancer for high availability
+            homepage_url: https://azure.microsoft.com/services/load-balancer/
+            logo: logos/cncf.svg
+          - name: Application Gateway
+            description: Layer 7 load balancer and web application firewall
+            homepage_url: https://azure.microsoft.com/services/application-gateway/
+            logo: logos/cncf.svg
+          - name: Content Delivery Network
+            description: Global content delivery and acceleration
+            homepage_url: https://azure.microsoft.com/services/cdn/
+            logo: logos/cncf.svg
+          - name: Traffic Manager
+            description: DNS-based traffic load balancer
+            homepage_url: https://azure.microsoft.com/services/traffic-manager/
+            logo: logos/cncf.svg
+          - name: ExpressRoute
+            description: Dedicated network connection to Azure
+            homepage_url: https://azure.microsoft.com/services/expressroute/
+            logo: logos/cncf.svg
+          - name: VPN Gateway
+            description: Site-to-site and point-to-site VPN connections
+            homepage_url: https://azure.microsoft.com/services/vpn-gateway/
+            logo: logos/cncf.svg
+          - name: Bastion
+            description: Secure RDP and SSH access without exposing ports
+            homepage_url: https://azure.microsoft.com/services/azure-bastion/
+            logo: logos/cncf.svg
+          - name: Firewall
+            description: Cloud-native network security service
+            homepage_url: https://azure.microsoft.com/services/azure-firewall/
+            logo: logos/cncf.svg
+          - name: DDoS Protection
+            description: DDoS attack protection service
+            homepage_url: https://azure.microsoft.com/services/ddos-protection/
+            logo: logos/cncf.svg
+          - name: Network Watcher
+            description: Network monitoring and diagnostics
+            homepage_url: https://azure.microsoft.com/services/network-watcher/
+            logo: logos/cncf.svg
+          - name: Front Door
+            description: Global load balancer and DDoS protection
+            homepage_url: https://azure.microsoft.com/services/frontdoor/
+            logo: logos/cncf.svg
+          - name: Private Link
+            description: Access Azure services over private network
+            homepage_url: https://azure.microsoft.com/services/private-link/
+            logo: logos/cncf.svg
+          - name: Virtual WAN
+            description: Unified wide area network
+            homepage_url: https://azure.microsoft.com/services/virtual-wan/
+            logo: logos/cncf.svg
+          - name: Azure Orbital
+            description: Satellite ground stations and connectivity
+            homepage_url: https://azure.microsoft.com/services/orbital/
+            logo: logos/cncf.svg
+          - name: Azure Edge Zones
+            description: Ultra-low latency computing at the edge
+            homepage_url: https://azure.microsoft.com/services/edge-zones/
+            logo: logos/cncf.svg
+
+      - name: Data Integration & Migration
+        items:
+          - name: Data Factory
+            description: Hybrid data integration service
+            homepage_url: https://azure.microsoft.com/services/data-factory/
+            logo: logos/cncf.svg
+          - name: Synapse Link
+            description: Real-time analytics on operational data
+            homepage_url: https://azure.microsoft.com/services/synapse-link/
+            logo: logos/cncf.svg
+          - name: Data Share
+            description: Simple and safe data sharing service
+            homepage_url: https://azure.microsoft.com/services/data-share/
+            logo: logos/cncf.svg
+          - name: Purview
+            description: Unified data governance and cataloging
+            homepage_url: https://azure.microsoft.com/services/purview/
+            logo: logos/cncf.svg
+          - name: Stream Analytics
+            description: Real-time data stream processing
+            homepage_url: https://azure.microsoft.com/services/stream-analytics/
+            logo: logos/cncf.svg
+          - name: Event Hubs
+            description: Big data streaming platform
+            homepage_url: https://azure.microsoft.com/services/event-hubs/
+            logo: logos/cncf.svg
+          - name: Service Bus
+            description: Managed message broker service
+            homepage_url: https://azure.microsoft.com/services/service-bus/
+            logo: logos/cncf.svg
+          - name: Planetary Computer
+            description: Integrated geospatial analysis platform
+            homepage_url: https://planetarycomputer.microsoft.com/
+            logo: logos/cncf.svg
+
+      - name: Azure Applications
+        items:
+          - name: Microsoft Defender for Cloud
+            description: Cloud security posture management and threat protection
+            homepage_url: https://azure.microsoft.com/services/defender-for-cloud/
+            logo: logos/cncf.svg
+          - name: Azure Marketplace
+            description: Third-party software and applications for Azure
+            homepage_url: https://azuremarketplace.microsoft.com/
+            logo: logos/cncf.svg
+          - name: Microsoft 365
+            description: Cloud productivity suite with Office apps
+            homepage_url: https://www.microsoft.com/microsoft-365
+            logo: logos/cncf.svg
+          - name: Azure Communication Services
+            description: Build rich communication experiences
+            homepage_url: https://azure.microsoft.com/services/communication-services/
+            logo: logos/cncf.svg
+          - name: Azure IoT Hub
+            description: Managed IoT platform for device connectivity
+            homepage_url: https://azure.microsoft.com/services/iot-hub/
+            logo: logos/cncf.svg
+          - name: Dynamics 365
+            description: Enterprise resource planning and CRM applications
+            homepage_url: https://dynamics.microsoft.com/
+            logo: logos/cncf.svg
+          - name: Teams
+            description: Collaboration and communication platform
+            homepage_url: https://www.microsoft.com/microsoft-teams
+            logo: logos/cncf.svg
+          - name: Azure Key Vault
+            description: Manage cryptographic keys and secrets
+            homepage_url: https://azure.microsoft.com/services/key-vault/
+            logo: logos/cncf.svg
+          - name: Azure Policy
+            description: Enforce organizational standards and compliance
+            homepage_url: https://azure.microsoft.com/services/azure-policy/
+            logo: logos/cncf.svg
+          - name: Azure DevOps
+            description: Development collaboration and CI/CD tools
+            homepage_url: https://azure.microsoft.com/services/devops/
+            logo: logos/cncf.svg
+
+  - name: Google Cloud Platform
+    subcategories:
+      - name: Compute Services
+        items:
+          - name: Cloud Functions
+            description: Serverless functions service
+            pricing_url: https://cloud.google.com/functions/pricing
+            homepage_url: https://cloud.google.com/functions
+            logo: logos/cncf.svg
+          - name: App Engine
+            description: Platform as a Service for web applications
+            pricing_url: https://cloud.google.com/appengine/pricing
+            homepage_url: https://cloud.google.com/appengine
+            logo: logos/cncf.svg
+          - name: Cloud Run
+            description: Fully managed container platform
+            pricing_url: https://cloud.google.com/run/pricing
+            homepage_url: https://cloud.google.com/run
+            logo: logos/cncf.svg
+          - name: Google Kubernetes Engine (GKE)
+            description: Fully managed Kubernetes service
+            pricing_url: https://cloud.google.com/kubernetes-engine/pricing
+            homepage_url: https://cloud.google.com/kubernetes-engine
+            logo: logos/cncf.svg
+          - name: Google Compute Engine
+            crunchbase: https://www.crunchbase.com/organization/google-cloud
+            description: Customizable compute capacity with global footprint
+            pricing_url: https://cloud.google.com/compute/pricing
+            homepage_url: https://cloud.google.com/compute
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Bare Metal Solution
+            description: Dedicated bare metal servers for specialized workloads
+            pricing_url: https://cloud.google.com/bare-metal/pricing
+            homepage_url: https://cloud.google.com/bare-metal
+            logo: logos/cncf.svg
+          - name: Preemptible VMs
+            description: Short-lived compute instances at reduced cost
+            pricing_url: https://cloud.google.com/compute/docs/instances/preemptible
+            homepage_url: https://cloud.google.com/compute/docs/instances/preemptible
+            logo: logos/cncf.svg
+          - name: Shielded VMs
+            description: VMs with hardened security controls
+            pricing_url: https://cloud.google.com/compute/shielded-vm
+            homepage_url: https://cloud.google.com/compute/shielded-vm
+            logo: logos/cncf.svg
+          - name: Sole-tenant Nodes
+            description: Dedicated physical servers for your exclusive use
+            pricing_url: https://cloud.google.com/compute/docs/nodes/sole-tenant-nodes
+            homepage_url: https://cloud.google.com/compute/docs/nodes/sole-tenant-nodes
+            logo: logos/cncf.svg
+          - name: VMware Engine
+            description: Run VMware workloads on Google Cloud
+            pricing_url: https://cloud.google.com/vmware-engine/pricing
+            homepage_url: https://cloud.google.com/vmware-engine
+            logo: logos/cncf.svg
+
+      - name: Storage Services
+        items:
+          - name: Cloud Filestore
+            description: Managed NFS file storage
+            pricing_url: https://cloud.google.com/filestore/pricing
+            homepage_url: https://cloud.google.com/filestore
+            logo: logos/cncf.svg
+          - name: Cloud Storage
+            crunchbase: https://www.crunchbase.com/organization/google-cloud
+            description: Unified object storage service
+            pricing_url: https://cloud.google.com/storage/pricing
+            homepage_url: https://cloud.google.com/storage
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Persistent Disk
+            description: High-performance block storage
+            pricing_url: https://cloud.google.com/persistent-disk/pricing
+            homepage_url: https://cloud.google.com/persistent-disk
+            logo: logos/cncf.svg
+          - name: Local SSD
+            description: High-speed local storage for compute instances
+            pricing_url: https://cloud.google.com/compute/docs/disks/local-ssd
+            homepage_url: https://cloud.google.com/compute/docs/disks/local-ssd
+            logo: logos/cncf.svg
+
+      - name: Database Services
+        items:
+          - name: Cloud Bigtable
+            description: High-performance NoSQL database
+            homepage_url: https://cloud.google.com/bigtable
+            logo: logos/cncf.svg
+          - name: Cloud Firestore
+            description: Serverless NoSQL document database
+            homepage_url: https://cloud.google.com/firestore
+            logo: logos/cncf.svg
+          - name: Cloud Memorystore
+            description: Managed Redis and Memcached
+            homepage_url: https://cloud.google.com/memorystore
+            logo: logos/cncf.svg
+          - name: Cloud Spanner
+            description: Horizontally scalable relational database
+            homepage_url: https://cloud.google.com/spanner
+            logo: logos/cncf.svg
+          - name: Cloud SQL
+            crunchbase: https://www.crunchbase.com/organization/google-cloud
+            description: Fully managed relational database
+            homepage_url: https://cloud.google.com/sql
+            logo: logos/cncf.svg
+            project: graduated
+          - name: Database Migration Service
+            description: Migrate databases to Cloud SQL
+            homepage_url: https://cloud.google.com/database-migration
+            logo: logos/cncf.svg
+          - name: Cloud SQL Insights
+            description: Database diagnostics and performance insights
+            homepage_url: https://cloud.google.com/sql/docs/postgres/insights-overview
+            logo: logos/cncf.svg
+
+      - name: Analytics Services
+        items:
+          - name: BigQuery
+            description: Serverless data warehouse
+            homepage_url: https://cloud.google.com/bigquery
+            logo: logos/cncf.svg
+          - name: BigQuery BI Engine
+            description: In-memory analysis engine for BigQuery
+            homepage_url: https://cloud.google.com/bigquery/docs/bi-engine
+            logo: logos/cncf.svg
+          - name: BigQuery ML
+            description: Create ML models with SQL
+            homepage_url: https://cloud.google.com/bigquery/docs/bqml-introduction
+            logo: logos/cncf.svg
+          - name: BigQuery GIS
+            description: Geospatial analysis in BigQuery
+            homepage_url: https://cloud.google.com/bigquery/docs/gis-intro
+            logo: logos/cncf.svg
+          - name: BigQuery Data Transfer Service
+            description: Automate data transfer to BigQuery
+            homepage_url: https://cloud.google.com/bigquery-transfer
+            logo: logos/cncf.svg
+          - name: Connected Sheets
+            description: Work with BigQuery data in Google Sheets
+            homepage_url: https://cloud.google.com/bigquery/docs/connected-sheets
+            logo: logos/cncf.svg
+          - name: Cloud Composer
+            description: Fully managed workflow orchestration service
+            homepage_url: https://cloud.google.com/composer
+            logo: logos/cncf.svg
+          - name: Cloud Data Fusion
+            description: Fully managed, serverless data integration
+            homepage_url: https://cloud.google.com/data-fusion
+            logo: logos/cncf.svg
+          - name: Dataflow
+            description: Unified stream and batch data processing
+            homepage_url: https://cloud.google.com/dataflow
+            logo: logos/cncf.svg
+          - name: Dataprep by Trifacta
+            description: Intelligent data preparation service
+            homepage_url: https://cloud.google.com/dataprep
+            logo: logos/cncf.svg
+          - name: Dataproc
+            description: Managed Spark and Hadoop service
+            homepage_url: https://cloud.google.com/dataproc
+            logo: logos/cncf.svg
+          - name: Datastream
+            description: Real-time data change capture and replication
+            homepage_url: https://cloud.google.com/datastream
+            logo: logos/cncf.svg
+          - name: Pub/Sub
+            description: Real-time messaging service
+            homepage_url: https://cloud.google.com/pubsub
+            logo: logos/cncf.svg
+          - name: Data Catalog
+            description: Unified data discovery and governance
+            homepage_url: https://cloud.google.com/data-catalog
+            logo: logos/cncf.svg
+          - name: Google Data Studio
+            description: Free data visualization and reporting
+            homepage_url: https://datastudio.google.com/
+            logo: logos/cncf.svg
+          - name: Looker
+            description: Enterprise business intelligence platform
+            homepage_url: https://cloud.google.com/looker
+            logo: logos/cncf.svg
+          - name: Public Datasets
+            description: Free public datasets on BigQuery
+            homepage_url: https://cloud.google.com/public-datasets
+            logo: logos/cncf.svg
+          - name: Google Earth Engine
+            description: Geospatial analysis platform for large-scale data
+            homepage_url: https://earthengine.google.com/
+            logo: logos/cncf.svg
+
+      - name: AI/ML Services
+        items:
+          - name: Vertex AI
+            description: Unified platform for machine learning
+            homepage_url: https://cloud.google.com/vertex-ai
+            logo: logos/cncf.svg
+          - name: AutoML
+            description: Build custom ML models without coding
+            homepage_url: https://cloud.google.com/automl
+            logo: logos/cncf.svg
+          - name: Vertex AI Data Labeling
+            description: Data labeling service for ML
+            homepage_url: https://cloud.google.com/vertex-ai/docs/datasets/label-data
+            logo: logos/cncf.svg
+          - name: Deep Learning VM Images
+            description: Pre-configured VMs for deep learning
+            homepage_url: https://cloud.google.com/deep-learning-vm
+            logo: logos/cncf.svg
+          - name: Vertex AI Workbench
+            description: Managed Jupyter notebook environment
+            homepage_url: https://cloud.google.com/vertex-ai/docs/workbench
+            logo: logos/cncf.svg
+          - name: Deep Learning Containers
+            description: Pre-built Docker containers for deep learning
+            homepage_url: https://cloud.google.com/deep-learning-containers
+            logo: logos/cncf.svg
+          - name: Vertex AI Matching Engine
+            description: Vector similarity search service
+            homepage_url: https://cloud.google.com/vertex-ai/docs/matching-engine
+            logo: logos/cncf.svg
+          - name: Vertex AI Pipelines
+            description: Serverless ML workflow orchestration
+            homepage_url: https://cloud.google.com/vertex-ai/docs/pipelines
+            logo: logos/cncf.svg
+          - name: Vertex AI Predictions
+            description: Serve ML models with auto-scaling
+            homepage_url: https://cloud.google.com/vertex-ai/docs/predictions
+            logo: logos/cncf.svg
+          - name: Vertex AI Training
+            description: Train ML models at scale
+            homepage_url: https://cloud.google.com/vertex-ai/docs/training
+            logo: logos/cncf.svg
+          - name: Vertex AI Edge Manager
+            description: Deploy and manage ML models on edge devices
+            homepage_url: https://cloud.google.com/vertex-ai/docs/edge/overview
+            logo: logos/cncf.svg
+          - name: Vertex Explainable AI
+            description: Understand ML model predictions
+            homepage_url: https://cloud.google.com/vertex-ai/docs/explainable-ai
+            logo: logos/cncf.svg
+          - name: Vertex AI Feature Store
+            description: Managed feature management for ML
+            homepage_url: https://cloud.google.com/vertex-ai/docs/featurestore
+            logo: logos/cncf.svg
+          - name: Vertex ML Metadata
+            description: Track ML metadata and artifacts
+            homepage_url: https://cloud.google.com/vertex-ai/docs/ml-metadata
+            logo: logos/cncf.svg
+          - name: Vertex AI Model Monitoring
+            description: Monitor ML model performance
+            homepage_url: https://cloud.google.com/vertex-ai/docs/model-monitoring
+            logo: logos/cncf.svg
+          - name: Vertex AI Tensorboard
+            description: ML experiment tracking and visualization
+            homepage_url: https://cloud.google.com/vertex-ai/docs/experiments/tensorboard
+            logo: logos/cncf.svg
+          - name: Vertex AI Vizier
+            description: Hyperparameter tuning service
+            homepage_url: https://cloud.google.com/vertex-ai/docs/vizier
+            logo: logos/cncf.svg
+          - name: Speech-to-Text
+            description: Convert audio to text
+            homepage_url: https://cloud.google.com/speech-to-text
+            logo: logos/cncf.svg
+          - name: Talent Solutions
+            description: AI-powered recruitment solutions
+            homepage_url: https://cloud.google.com/talent-solutions
+            logo: logos/cncf.svg
+          - name: Text-to-Speech
+            description: Convert text to natural-sounding speech
+            homepage_url: https://cloud.google.com/text-to-speech
+            logo: logos/cncf.svg
+          - name: Cloud TPU
+            description: Tensor Processing Units for ML
+            homepage_url: https://cloud.google.com/tpu
+            logo: logos/cncf.svg
+          - name: Cloud Translation
+            description: Neural machine translation
+            homepage_url: https://cloud.google.com/translate
+            logo: logos/cncf.svg
+          - name: Cloud Video Intelligence API
+            description: Extract insights from videos
+            homepage_url: https://cloud.google.com/video-intelligence
+            logo: logos/cncf.svg
+          - name: Cloud Vision
+            description: Analyze images and extract text
+            homepage_url: https://cloud.google.com/vision
+            logo: logos/cncf.svg          
+          - name: Contact Center AI
+            description: AI solutions for contact centers
+            homepage_url: https://cloud.google.com/solutions/contact-center
+            logo: logos/cncf.svg
+          - name: Dialogflow
+            description: Conversational AI platform
+            homepage_url: https://cloud.google.com/dialogflow
+            logo: logos/cncf.svg
+          - name: Document AI
+            description: Extract and classify document data
+            homepage_url: https://cloud.google.com/document-ai
+            logo: logos/cncf.svg
+          - name: Recommendations AI
+            description: Build personalized recommendation engines
+            homepage_url: https://cloud.google.com/recommendations
+            logo: logos/cncf.svg
+          - name: Vision Product Search
+            description: Search products by image
+            homepage_url: https://cloud.google.com/vision/product-search
+            logo: logos/cncf.svg
+
+      - name: Networking & Content Delivery
+        items:
+          - name: Carrier Peering
+            description: Exchange traffic with telecom carriers
+            homepage_url: https://cloud.google.com/interconnect/docs/how-to/carrier-peering
+            logo: logos/cncf.svg
+          - name: Direct Peering
+            description: Direct network connection to Google
+            homepage_url: https://cloud.google.com/interconnect/docs/direct-peering
+            logo: logos/cncf.svg
+          - name: Dedicated Interconnect
+            description: Dedicated network connection to Google Cloud
+            homepage_url: https://cloud.google.com/interconnect/docs/dedicated-interconnect
+            logo: logos/cncf.svg
+          - name: Partner Interconnect
+            description: Network connection through partners
+            homepage_url: https://cloud.google.com/interconnect/docs/partner-interconnect
+            logo: logos/cncf.svg
+          - name: Google Cloud Armor
+            description: DDoS protection and WAF
+            homepage_url: https://cloud.google.com/armor
+            logo: logos/cncf.svg
+          - name: Cloud CDN
+            description: Content delivery network
+            homepage_url: https://cloud.google.com/cdn
+            logo: logos/cncf.svg
+          - name: Cloud DNS
+            description: Scalable DNS service
+            homepage_url: https://cloud.google.com/dns
+            logo: logos/cncf.svg
+          - name: Cloud Load Balancing
+            description: Load balancer for global traffic distribution
+            homepage_url: https://cloud.google.com/load-balancing
+            logo: logos/cncf.svg
+          - name: Cloud NAT
+            description: Managed network translation
+            homepage_url: https://cloud.google.com/nat
+            logo: logos/cncf.svg
+          - name: Cloud Router
+            description: Dynamic routing service
+            homepage_url: https://cloud.google.com/router
+            logo: logos/cncf.svg
+          - name: Cloud VPN
+            description: VPN connections to Google Cloud
+            homepage_url: https://cloud.google.com/vpn
+            logo: logos/cncf.svg
+          - name: Network Service Tiers
+            description: Choose performance and cost tier
+            homepage_url: https://cloud.google.com/network-tiers
+            logo: logos/cncf.svg
+          - name: Network Telemetry
+            description: Network monitoring and visibility
+            homepage_url: https://cloud.google.com/vpc/docs/flow-logs
+            logo: logos/cncf.svg
+          - name: Traffic Director
+            description: Fully managed service mesh control plane
+            homepage_url: https://cloud.google.com/traffic-director
+            logo: logos/cncf.svg
+          - name: Anthos Service Mesh
+            description: Service mesh for applications
+            homepage_url: https://cloud.google.com/anthos/service-mesh
+            logo: logos/cncf.svg
+          - name: Virtual Private Cloud
+            description: Isolated virtual network in Google Cloud
+            homepage_url: https://cloud.google.com/vpc
+            logo: logos/cncf.svg
+          - name: Cloud Domains
+            description: Register and manage domains
+            homepage_url: https://cloud.google.com/domains
+            logo: logos/cncf.svg
+          - name: VPC Service Controls
+            description: Enforce security boundaries
+            homepage_url: https://cloud.google.com/vpc-service-controls
+            logo: logos/cncf.svg
+          - name: Network Intelligence Center
+            description: Network monitoring and management
+            homepage_url: https://cloud.google.com/network-intelligence
+            logo: logos/cncf.svg
+          - name: Service Directory
+            description: Managed service discovery
+            homepage_url: https://cloud.google.com/service-directory
+            logo: logos/cncf.svg
+          - name: Private Service Connect
+            description: Private connectivity to services
+            homepage_url: https://cloud.google.com/vpc/docs/private-service-connect
+            logo: logos/cncf.svg
+          - name: Network Connectivity Center
+            description: Unified network connectivity
+            homepage_url: https://cloud.google.com/network-connectivity
+            logo: logos/cncf.svg
+          - name: Packet Mirroring
+            description: Copy traffic to monitoring tools
+            homepage_url: https://cloud.google.com/vpc/docs/packet-mirroring
+            logo: logos/cncf.svg
+          - name: Cloud IDS
+            description: Network threat detection
+            homepage_url: https://cloud.google.com/intrusion-detection-system
+            logo: logos/cncf.svg
+          - name: Cloud Edge Network
+            description: Low-latency edge computing network
+            homepage_url: https://cloud.google.com/edge-network
+            logo: logos/cncf.svg
+          - name: Distributed Cloud Edge
+            description: Deploy Google Cloud services at the edge
+            homepage_url: https://cloud.google.com/distributed-cloud/edge
+            logo: logos/cncf.svg
+
+      - name: Data Integration & Migration
+        items:
+          - name: Dataflow
+            description: Unified stream and batch data processing
+            homepage_url: https://cloud.google.com/dataflow
+            logo: logos/cncf.svg
+          - name: Cloud Data Transfer
+            description: Transfer data to Google Cloud
+            homepage_url: https://cloud.google.com/data-transfer
+            logo: logos/cncf.svg
+          - name: Database Migration Service
+            description: Migrate databases to Cloud SQL
+            homepage_url: https://cloud.google.com/database-migration
+            logo: logos/cncf.svg
+          - name: Datastream
+            description: Real-time data change capture
+            homepage_url: https://cloud.google.com/datastream
+            logo: logos/cncf.svg
+          - name: Pub/Sub
+            description: Real-time messaging service
+            homepage_url: https://cloud.google.com/pubsub
+            logo: logos/cncf.svg
+          - name: Cloud Composer
+            description: Fully managed workflow orchestration
+            homepage_url: https://cloud.google.com/composer
+            logo: logos/cncf.svg
+          - name: Cloud Data Fusion
+            description: Fully managed data integration
+            homepage_url: https://cloud.google.com/data-fusion
+            logo: logos/cncf.svg
+
+      - name: GCP Applications
+        items:
+          - name: Chronicle
+            description: Cloud-native security analytics platform
+            homepage_url: https://cloud.google.com/chronicle
+            logo: logos/cncf.svg
+          - name: Google Cloud Marketplace
+            description: Third-party software and applications for Google Cloud
+            homepage_url: https://cloud.google.com/marketplace
+            logo: logos/cncf.svg
+          - name: Google Workspace
+            description: Productivity suite with Gmail, Drive, and Docs
+            homepage_url: https://workspace.google.com/
+            logo: logos/cncf.svg
+          - name: Cloud IoT
+            description: Managed IoT platform for device connectivity
+            homepage_url: https://cloud.google.com/iot
+            logo: logos/cncf.svg
+          - name: Google Cloud Security Command Center
+            description: Centralized security and compliance management
+            homepage_url: https://cloud.google.com/security-command-center
+            logo: logos/cncf.svg
+          - name: Vertex AI Search and Conversation
+            description: Build generative AI search and chat applications
+            homepage_url: https://cloud.google.com/products/discovery-ai
+            logo: logos/cncf.svg
+          - name: Cloud Key Management Service
+            description: Manage encryption keys
+            homepage_url: https://cloud.google.com/kms
+            logo: logos/cncf.svg
+          - name: Cloud Audit Logs
+            description: Track administrative and data access logs
+            homepage_url: https://cloud.google.com/audit-logs
+            logo: logos/cncf.svg
+          - name: VPC Service Controls
+            description: Enforce security boundaries
+            homepage_url: https://cloud.google.com/vpc-service-controls
+            logo: logos/cncf.svg
+          - name: Cloud Asset Inventory
+            description: Discover and manage cloud resources
+            homepage_url: https://cloud.google.com/asset-inventory
+            logo: logos/cncf.svg
+
+  - name: Oracle Cloud Infrastructure
+    subcategories:
+      - name: Compute Services
+        items:
+          - name: Compute Instances
+            description: Scalable compute instances with flexible sizing
+            pricing_url: https://www.oracle.com/cloud/price-list/
+            homepage_url: https://www.oracle.com/cloud/compute/
+            logo: logos/cncf.svg
+          - name: Container Engine for Kubernetes
+            description: Managed Kubernetes service on OCI
+            homepage_url: https://www.oracle.com/cloud/kubernetes/
+            logo: logos/cncf.svg
+          - name: Functions
+            description: Serverless compute service
+            homepage_url: https://www.oracle.com/cloud/functions/
+            logo: logos/cncf.svg
+          - name: Bare Metal Compute
+            description: Dedicated bare metal servers
+            homepage_url: https://www.oracle.com/cloud/bare-metal/
+            logo: logos/cncf.svg
+
+      - name: Storage Services
+        items:
+          - name: Object Storage
+            description: Scalable object storage service
+            homepage_url: https://www.oracle.com/cloud/storage/object-storage/
+            logo: logos/cncf.svg
+          - name: Block Storage
+            description: High-performance block storage
+            homepage_url: https://www.oracle.com/cloud/storage/block-storage/
+            logo: logos/cncf.svg
+          - name: File Storage
+            description: Network file storage service
+            homepage_url: https://www.oracle.com/cloud/storage/file-storage/
+            logo: logos/cncf.svg
+          - name: Archive Storage
+            description: Long-term data archival storage
+            homepage_url: https://www.oracle.com/cloud/storage/archive-storage/
+            logo: logos/cncf.svg
+
+      - name: Database Services
+        items:
+          - name: Autonomous Database
+            description: Self-driving database service
+            homepage_url: https://www.oracle.com/cloud/database/autonomous-database/
+            logo: logos/cncf.svg
+          - name: MySQL Database Service
+            description: Managed MySQL database
+            homepage_url: https://www.oracle.com/cloud/database/mysql/
+            logo: logos/cncf.svg
+          - name: NoSQL Database
+            description: Fully managed NoSQL database service
+            homepage_url: https://www.oracle.com/cloud/database/nosql/
+            logo: logos/cncf.svg
+          - name: Database as a Service
+            description: Managed relational database
+            homepage_url: https://www.oracle.com/cloud/database/
+            logo: logos/cncf.svg
+
+      - name: Analytics Services
+        items:
+          - name: BigData Service
+            description: Managed big data analytics
+            homepage_url: https://www.oracle.com/cloud/bigdata/
+            logo: logos/cncf.svg
+          - name: Data Integration
+            description: Cloud data integration service
+            homepage_url: https://www.oracle.com/cloud/data-integration/
+            logo: logos/cncf.svg
+          - name: Analytics Cloud
+            description: Enterprise analytics and BI platform
+            homepage_url: https://www.oracle.com/cloud/analytics/
+            logo: logos/cncf.svg
+
+      - name: AI/ML Services
+        items:
+          - name: Data Science Service
+            description: Managed machine learning platform
+            homepage_url: https://www.oracle.com/cloud/data-science/
+            logo: logos/cncf.svg
+          - name: Anomaly Detection
+            description: Detect anomalies in data
+            homepage_url: https://www.oracle.com/cloud/anomaly-detection/
+            logo: logos/cncf.svg
+          - name: Document Understanding
+            description: AI-powered document processing
+            homepage_url: https://www.oracle.com/cloud/document-understanding/
+            logo: logos/cncf.svg
+
+      - name: Networking & Content Delivery
+        items:
+          - name: Virtual Cloud Network
+            description: Isolated virtual network
+            homepage_url: https://www.oracle.com/cloud/networking/vcn/
+            logo: logos/cncf.svg
+          - name: Load Balancer
+            description: Network load balancing service
+            homepage_url: https://www.oracle.com/cloud/networking/load-balancer/
+            logo: logos/cncf.svg
+          - name: FastConnect
+            description: Dedicated network connection
+            homepage_url: https://www.oracle.com/cloud/networking/fastconnect/
+            logo: logos/cncf.svg
+          - name: Content Delivery Network
+            description: Global content delivery service
+            homepage_url: https://www.oracle.com/cloud/cdn/
+            logo: logos/cncf.svg
+
+      - name: Data Integration & Migration
+        items:
+          - name: Data Transfer Service
+            description: Large-scale data transfer
+            homepage_url: https://www.oracle.com/cloud/data-transfer/
+            logo: logos/cncf.svg
+          - name: Database Migration Service
+            description: Migrate databases to OCI
+            homepage_url: https://www.oracle.com/cloud/database-migration/
+            logo: logos/cncf.svg
+          - name: GoldenGate
+            description: Real-time data replication
+            homepage_url: https://www.oracle.com/middleware/goldengate/
+            logo: logos/cncf.svg
+
+      - name: OCI Applications
+        items:
+          - name: Oracle Cloud Marketplace
+            description: Third-party software and applications for Oracle Cloud
+            homepage_url: https://cloudmarketplace.oracle.com/
+            logo: logos/cncf.svg
+          - name: Oracle Cloud Applications (Fusion)
+            description: Enterprise applications for ERP, HCM and CX
+            homepage_url: https://www.oracle.com/applications/
+            logo: logos/cncf.svg
+          - name: Oracle Autonomous Linux
+            description: Self-managing operating system
+            homepage_url: https://www.oracle.com/linux/autonomous-linux/
+            logo: logos/cncf.svg
+          - name: Oracle IoT
+            description: IoT platform for connected devices
+            homepage_url: https://www.oracle.com/cloud/iot/
+            logo: logos/cncf.svg
+          - name: Oracle Security Cloud
+            description: Unified security and compliance platform
+            homepage_url: https://www.oracle.com/security/
+            logo: logos/cncf.svg
+          - name: Oracle Key Management
+            description: Hardware security module for key management
+            homepage_url: https://www.oracle.com/cloud/key-management/
+            logo: logos/cncf.svg
+          - name: Oracle Cloud Guard
+            description: Threat detection and response
+            homepage_url: https://www.oracle.com/cloud/guard/
+            logo: logos/cncf.svg
+          - name: Oracle Configuration and Compliance
+            description: Track and manage cloud resource compliance
+            homepage_url: https://www.oracle.com/cloud/compliance/
+            logo: logos/cncf.svg
+          - name: Oracle License Management Services
+            description: Optimize Oracle license usage in cloud
+            homepage_url: https://www.oracle.com/cloud/license-management/
+            logo: logos/cncf.svg
+          - name: Oracle Integration Cloud
+            description: Enterprise integration platform as a service
+            homepage_url: https://www.oracle.com/integration/
+            logo: logos/cncf.svg
+
+  - name: IBM Cloud
+    subcategories:
+      - name: Compute Services
+        items:
+          - name: Virtual Servers
+            description: Scalable virtual machines on demand
+            pricing_url: https://www.ibm.com/cloud/virtual-servers/pricing
+            homepage_url: https://www.ibm.com/cloud/virtual-servers
+            logo: logos/cncf.svg
+          - name: Kubernetes Service
+            description: Managed Kubernetes cluster service
+            homepage_url: https://www.ibm.com/cloud/kubernetes-service
+            logo: logos/cncf.svg
+          - name: Functions
+            description: Serverless computing service
+            homepage_url: https://www.ibm.com/cloud/functions
+            logo: logos/cncf.svg
+
+      - name: Storage Services
+        items:
+          - name: Object Storage
+            description: Scalable cloud object storage
+            homepage_url: https://www.ibm.com/cloud/object-storage
+            logo: logos/cncf.svg
+          - name: Block Storage
+            description: Persistent block storage volumes
+            homepage_url: https://www.ibm.com/cloud/block-storage
+            logo: logos/cncf.svg
+
+      - name: Database Services
+        items:
+          - name: Databases for PostgreSQL
+            description: Managed PostgreSQL database
+            homepage_url: https://www.ibm.com/cloud/databases-for-postgresql
+            logo: logos/cncf.svg
+          - name: Databases for MySQL
+            description: Managed MySQL database
+            homepage_url: https://www.ibm.com/cloud/databases-for-mysql
+            logo: logos/cncf.svg
+          - name: Databases for MongoDB
+            description: Managed MongoDB database
+            homepage_url: https://www.ibm.com/cloud/databases-for-mongodb
+            logo: logos/cncf.svg
+
+      - name: Analytics Services
+        items:
+          - name: Analytics Engine
+            description: Apache Spark analytics service
+            homepage_url: https://www.ibm.com/cloud/analytics-engine
+            logo: logos/cncf.svg
+          - name: Db2 Warehouse
+            description: Cloud data warehouse
+            homepage_url: https://www.ibm.com/cloud/db2-warehouse
+            logo: logos/cncf.svg
+
+      - name: AI/ML Services
+        items:
+          - name: Watson Machine Learning
+            description: Build and deploy machine learning models
+            homepage_url: https://www.ibm.com/cloud/machine-learning
+            logo: logos/cncf.svg
+          - name: Watson Assistant
+            description: Build conversational AI assistants
+            homepage_url: https://www.ibm.com/cloud/watson-assistant
+            logo: logos/cncf.svg
+
+      - name: Networking & Content Delivery
+        items:
+          - name: Virtual Private Cloud
+            description: Isolated virtual network
+            homepage_url: https://www.ibm.com/cloud/vpc
+            logo: logos/cncf.svg
+          - name: Load Balancer
+            description: Load balancing service
+            homepage_url: https://www.ibm.com/cloud/load-balancer
+            logo: logos/cncf.svg
+
+      - name: Data Integration & Migration
+        items:
+          - name: Data Integration
+            description: Data integration and ETL service
+            homepage_url: https://www.ibm.com/cloud/data-integration
+            logo: logos/cncf.svg
+
+      - name: IBM Applications
+        items:
+          - name: QRadar
+            description: Security information and event management (SIEM)
+            homepage_url: https://www.ibm.com/security/qradar
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Security
+            description: Integrated security platform and applications
+            homepage_url: https://www.ibm.com/products/ibm-cloud-pak-for-security
+            logo: logos/cncf.svg
+          - name: IBM MobileFirst
+            description: Mobile app development and management platform
+            homepage_url: https://www.ibm.com/mobilefirst/
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Integration
+            description: Enterprise integration platform
+            homepage_url: https://www.ibm.com/cloud/paks/integration
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Automation
+            description: Intelligent automation platform
+            homepage_url: https://www.ibm.com/cloud/paks/automation
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Data
+            description: Unified data and AI platform
+            homepage_url: https://www.ibm.com/cloud/cloud-pak-for-data
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Business Automation
+            description: Workflow and case management
+            homepage_url: https://www.ibm.com/cloud/paks/business-automation
+            logo: logos/cncf.svg
+          - name: IBM Control Tower
+            description: Cloud governance and compliance management
+            homepage_url: https://www.ibm.com/cloud/governance
+            logo: logos/cncf.svg
+          - name: IBM Maximo
+            description: Asset management and maintenance optimization
+            homepage_url: https://www.ibm.com/maximo/
+            logo: logos/cncf.svg
+          - name: IBM SPSS Statistics
+            description: Statistical analysis and predictive analytics
+            homepage_url: https://www.ibm.com/products/spss-statistics
+            logo: logos/cncf.svg
+
+  - name: Broadcom
+    subcategories:
+      - name: Infrastructure Software
+        items:
+          - name: VMware vSphere
+            description: Enterprise virtualization platform for server consolidation
+            pricing_url: https://www.vmware.com/products/vsphere/pricing.html
+            homepage_url: https://www.vmware.com/products/vsphere.html
+            logo: logos/cncf.svg
+          - name: VMware vCloud Director
+            description: Cloud infrastructure platform for multi-tenant environments
+            homepage_url: https://www.vmware.com/products/cloud-infrastructure/vcloud-director.html
+            logo: logos/cncf.svg
+          - name: VMware NSX
+            description: Network virtualization and security platform
+            homepage_url: https://www.vmware.com/products/nsx.html
+            logo: logos/cncf.svg
+          - name: VMware vSAN
+            description: Software-defined storage for virtualized environments
+            homepage_url: https://www.vmware.com/products/vsan.html
+            logo: logos/cncf.svg
+          - name: VMware Aria Operations
+            description: Intelligent operations and monitoring platform
+            homepage_url: https://www.vmware.com/products/aria/operations.html
+            logo: logos/cncf.svg
+          - name: VMware Aria Automation
+            description: Infrastructure automation and lifecycle management
+            homepage_url: https://www.vmware.com/products/aria/automation.html
+            logo: logos/cncf.svg
+          - name: VMware Tanzu
+            description: Enterprise container and Kubernetes platform
+            homepage_url: https://tanzu.vmware.com/
+            logo: logos/cncf.svg
+          - name: VMware Kubernetes Engine
+            description: Managed Kubernetes service powered by Broadcom
+            homepage_url: https://www.vmware.com/products/cloud-infrastructure/kubernetes-engine.html
+            logo: logos/cncf.svg
+
+      - name: Security & Compliance
+        items:
+          - name: VMware Carbon Black Cloud
+            description: Endpoint detection and response platform
+            homepage_url: https://www.broadcom.com/products/cybersecurity/carbon-black
+            logo: logos/cncf.svg
+          - name: VMware NSX Security
+            description: Microsegmentation and network security
+            homepage_url: https://www.vmware.com/products/nsx.html
+            logo: logos/cncf.svg
+          - name: Broadcom Secure Web Gateway
+            description: Cloud-based web security and data loss prevention
+            homepage_url: https://www.broadcom.com/products/cybersecurity/secure-web-gateway
+            logo: logos/cncf.svg
+          - name: Broadcom Identity & Access Management
+            description: Enterprise identity and access governance
+            homepage_url: https://www.broadcom.com/products/cybersecurity/identity-governance
+            logo: logos/cncf.svg
+          - name: Broadcom Encryption & Key Management
+            description: Data encryption and cryptographic key management
+            homepage_url: https://www.broadcom.com/products/cybersecurity/encryption
+            logo: logos/cncf.svg
+
+      - name: Management & Operations
+        items:
+          - name: VMware Skyline
+            description: Proactive support and optimization platform
+            homepage_url: https://www.vmware.com/products/skyline.html
+            logo: logos/cncf.svg
+          - name: VMware Aria Cost
+            description: Cloud cost management and optimization
+            homepage_url: https://www.vmware.com/products/aria/cost.html
+            logo: logos/cncf.svg
+          - name: VMware Aria Automation Orchestration
+            description: Multi-cloud orchestration engine
+            homepage_url: https://www.vmware.com/products/aria/automation.html
+            logo: logos/cncf.svg
+          - name: Broadcom Workload Automation
+            description: Enterprise batch and workload scheduling
+            homepage_url: https://www.broadcom.com/products/automation
+            logo: logos/cncf.svg
+          - name: Broadcom Service Management
+            description: IT service management and ITSM solutions
+            homepage_url: https://www.broadcom.com/products/it-service-management
+            logo: logos/cncf.svg
+
+      - name: Data & Analytics
+        items:
+          - name: Broadcom Mainframe Data Solutions
+            description: Data management for mainframe environments
+            homepage_url: https://www.broadcom.com/products/mainframe/data
+            logo: logos/cncf.svg
+          - name: Broadcom IDMS
+            description: Integrated database management system
+            homepage_url: https://www.broadcom.com/products/mainframe/idms
+            logo: logos/cncf.svg
+          - name: Broadcom Gen
+            description: Generational database and DASD management
+            homepage_url: https://www.broadcom.com/products/mainframe/gen
+            logo: logos/cncf.svg
+          - name: Broadcom Analytics & Reporting
+            description: Business intelligence and analytics tools
+            homepage_url: https://www.broadcom.com/products/analytics
+            logo: logos/cncf.svg
+
+      - name: Application Development
+        items:
+          - name: VMware Spring
+            description: Open source application development framework
+            homepage_url: https://spring.io/
+            logo: logos/cncf.svg
+          - name: VMware Tanzu Application Service
+            description: Platform for building and deploying applications
+            homepage_url: https://tanzu.vmware.com/application-service
+            logo: logos/cncf.svg
+          - name: Broadcom Mainframe Software Development Kit
+            description: SDK for mainframe application development
+            homepage_url: https://www.broadcom.com/products/mainframe/development
+            logo: logos/cncf.svg
+          - name: Broadcom Application Dependency Mapping
+            description: Application architecture and dependency visualization
+            homepage_url: https://www.broadcom.com/products/application-dependency-mapping
+            logo: logos/cncf.svg
+
+      - name: Integration & Middleware
+        items:
+          - name: VMware Tanzu Integration Hub
+            description: Enterprise integration and API management
+            homepage_url: https://tanzu.vmware.com/integration
+            logo: logos/cncf.svg
+          - name: Broadcom Enterprise Service Bus
+            description: Message-oriented middleware platform
+            homepage_url: https://www.broadcom.com/products/middleware/esb
+            logo: logos/cncf.svg
+          - name: Broadcom CICS
+            description: Customer Information Control System for transaction processing
+            homepage_url: https://www.broadcom.com/products/mainframe/cics
+            logo: logos/cncf.svg
+          - name: Broadcom API Gateway
+            description: Enterprise API management and gateway
+            homepage_url: https://www.broadcom.com/products/middleware/api-gateway
+            logo: logos/cncf.svg
+
+      - name: Broadcom Applications
+        items:
+          - name: Broadcom Marketplace
+            description: Third-party software and solutions for Broadcom products
+            homepage_url: https://www.broadcom.com/marketplace
+            logo: logos/cncf.svg
+          - name: VMware Horizon
+            description: Desktop and application virtualization
+            homepage_url: https://www.vmware.com/products/horizon.html
+            logo: logos/cncf.svg
+          - name: Broadcom Mainframe Solutions
+            description: Enterprise solutions for mainframe systems
+            homepage_url: https://www.broadcom.com/products/mainframe
+            logo: logos/cncf.svg
+          - name: VMware vRealize Suite
+            description: Unified management suite for infrastructure and applications
+            homepage_url: https://www.vmware.com/products/vrealize-suite.html
+            logo: logos/cncf.svg
+          - name: Broadcom Unified Communications
+            description: Enterprise communication platform
+            homepage_url: https://www.broadcom.com/products/communications
+            logo: logos/cncf.svg
+          - name: Broadcom Vulnerability Management
+            description: Enterprise vulnerability assessment and management
+            homepage_url: https://www.broadcom.com/products/cybersecurity/vulnerability-management
+            logo: logos/cncf.svg
+
+  - name: Cross-Cloud Services
+    subcategories:
+      - name: Multi-Cloud Networking
+        items:
+          - name: VPC/VNet Networking
+            description: Virtual private network solutions available across all cloud providers
+            homepage_url: https://cloud.google.com/vpc
+            logo: logos/cncf.svg
+          - name: Load Balancing
+            description: Traffic distribution services across providers
+            homepage_url: https://aws.amazon.com/elasticloadbalancing/
+            logo: logos/cncf.svg
+          - name: DNS & CDN
+            description: Global DNS and content delivery capabilities
+            homepage_url: https://aws.amazon.com/route53/
+            logo: logos/cncf.svg
+
+      - name: Multi-Cloud Security
+        items:
+          - name: Identity & Access Management
+            description: Fine-grained access control across platforms
+            homepage_url: https://aws.amazon.com/iam/
+            logo: logos/cncf.svg
+          - name: Encryption & Key Management
+            description: Data protection and cryptographic key management
+            homepage_url: https://aws.amazon.com/kms/
+            logo: logos/cncf.svg
+          - name: Compliance & Auditing
+            description: Governance, compliance monitoring, and audit trails
+            homepage_url: https://aws.amazon.com/cloudtrail/
+            logo: logos/cncf.svg
+
+      - name: Multi-Cloud Analytics
+        items:
+          - name: Data Warehousing
+            description: Large-scale data analytics across providers
+            homepage_url: https://aws.amazon.com/redshift/
+            logo: logos/cncf.svg
+          - name: Stream Processing
+            description: Real-time data processing capabilities
+            homepage_url: https://aws.amazon.com/kinesis/
+            logo: logos/cncf.svg
+          - name: Machine Learning
+            description: ML and AI services across all providers
+            homepage_url: https://aws.amazon.com/sagemaker/
+            logo: logos/cncf.svg
+
+      - name: Integration & DevOps
+        items:
+          - name: CI/CD Pipelines
+            description: Continuous integration and deployment across clouds
+            homepage_url: https://aws.amazon.com/codepipeline/
+            logo: logos/cncf.svg
+          - name: Infrastructure as Code
+            description: IaC tools for multi-cloud deployments
+            homepage_url: https://www.terraform.io/
+            logo: logos/cncf.svg
+          - name: Monitoring & Observability
+            description: Cross-cloud monitoring and logging
+            homepage_url: https://aws.amazon.com/cloudwatch/
+            logo: logos/cncf.svg
+
+      - name: Satellite & Edge Computing
+        items:
+          - name: Satellite Connectivity
+            description: LEO and GEO satellite services across providers
+            homepage_url: https://aws.amazon.com/leo/
+            logo: logos/cncf.svg
+          - name: Ground Stations
+            description: Managed ground station services for satellite operations
+            homepage_url: https://aws.amazon.com/ground-station/
+            logo: logos/cncf.svg
+          - name: Edge Computing
+            description: Ultra-low latency computing at network edge
+            homepage_url: https://azure.microsoft.com/services/edge-zones/
+            logo: logos/cncf.svg
+          - name: IoT Connectivity
+            description: Connect remote devices via satellite and edge networks
+            homepage_url: https://www.ibm.com/cloud/satellite
+            logo: logos/cncf.svg
+
+  - name: Pipelines
+    subcategories:
+      - name: AWS Data Pipelines
+        items:
+          - name: AWS Data Pipeline
+            description: Web service for orchestrating data workflows and ETL processes
+            homepage_url: https://aws.amazon.com/datapipeline/
+            logo: logos/cncf.svg
+          - name: AWS Step Functions
+            description: Serverless workflow orchestration for coordinating AWS services
+            homepage_url: https://aws.amazon.com/stepfunctions/
+            logo: logos/cncf.svg
+          - name: AWS Glue Workflows
+            description: Visual orchestration of ETL and data integration jobs
+            homepage_url: https://aws.amazon.com/glue/
+            logo: logos/cncf.svg
+          - name: AWS CodePipeline
+            description: Fully managed continuous delivery pipeline service
+            homepage_url: https://aws.amazon.com/codepipeline/
+            logo: logos/cncf.svg
+
+      - name: Azure Data Pipelines & Automation
+        items:
+          - name: Azure Data Factory Pipelines
+            description: Cloud-based data integration with pipeline orchestration
+            homepage_url: https://azure.microsoft.com/services/data-factory/
+            logo: logos/cncf.svg
+          - name: Azure Synapse Pipelines
+            description: Unified analytics pipelines with orchestration capabilities
+            homepage_url: https://azure.microsoft.com/services/synapse-analytics/
+            logo: logos/cncf.svg
+          - name: Power Automate
+            description: Build automated workflows across cloud applications and services
+            homepage_url: https://powerautomate.microsoft.com/
+            logo: logos/cncf.svg
+          - name: Azure DevOps Pipelines
+            description: CI/CD pipeline service for building and deploying applications
+            homepage_url: https://azure.microsoft.com/services/devops/pipelines/
+            logo: logos/cncf.svg
+          - name: SharePoint Workflows
+            description: Automate business processes within SharePoint
+            homepage_url: https://www.microsoft.com/microsoft-365/sharepoint/workflows
+            logo: logos/cncf.svg
+          - name: Power Pages
+            description: Build business-focused portal and app sites with low-code
+            homepage_url: https://powerpages.microsoft.com/
+            logo: logos/cncf.svg
+          - name: Entra ID (Azure AD)
+            description: Identity and access management for pipeline authentication
+            homepage_url: https://www.microsoft.com/security/business/microsoft-entra
+            logo: logos/cncf.svg
+          - name: Power Automate Desktop Flows
+            description: Robotic process automation for enterprise pipelines
+            homepage_url: https://powerautomate.microsoft.com/desktop-flows/
+            logo: logos/cncf.svg
+          - name: Dynamics 365 Workflows
+            description: Business process automation pipelines in Dynamics
+            homepage_url: https://dynamics.microsoft.com/business-central/
+            logo: logos/cncf.svg
+          - name: Microsoft Teams Integration
+            description: Pipeline automation through Teams workflows and connectors
+            homepage_url: https://www.microsoft.com/microsoft-teams/
+            logo: logos/cncf.svg
+
+      - name: Google Cloud Pipelines
+        items:
+          - name: Cloud Composer
+            description: Fully managed Apache Airflow service for workflow orchestration
+            homepage_url: https://cloud.google.com/composer
+            logo: logos/cncf.svg
+          - name: Cloud Dataflow
+            description: Unified stream and batch data processing pipelines
+            homepage_url: https://cloud.google.com/dataflow
+            logo: logos/cncf.svg
+          - name: Cloud Build
+            description: Fully managed CI/CD platform for building and deploying
+            homepage_url: https://cloud.google.com/build
+            logo: logos/cncf.svg
+          - name: Vertex AI Pipelines
+            description: Serverless ML pipeline orchestration and management
+            homepage_url: https://cloud.google.com/vertex-ai/docs/pipelines
+            logo: logos/cncf.svg
+          - name: Cloud Workflows
+            description: Orchestrate cloud services and APIs in a serverless manner
+            homepage_url: https://cloud.google.com/workflows
+            logo: logos/cncf.svg
+
+      - name: Oracle Cloud Pipelines
+        items:
+          - name: Oracle Data Integration
+            description: Cloud-based data integration and ETL pipelines
+            homepage_url: https://www.oracle.com/cloud/data-integration/
+            logo: logos/cncf.svg
+          - name: Oracle GoldenGate
+            description: Real-time data replication and pipeline orchestration
+            homepage_url: https://www.oracle.com/middleware/goldengate/
+            logo: logos/cncf.svg
+          - name: Oracle Resource Manager
+            description: Infrastructure automation and pipeline orchestration
+            homepage_url: https://www.oracle.com/cloud/resource-manager/
+            logo: logos/cncf.svg
+          - name: Oracle Cloud Pipelines
+            description: Build and deployment pipeline automation
+            homepage_url: https://www.oracle.com/devops/
+            logo: logos/cncf.svg
+
+      - name: IBM Cloud Pipelines
+        items:
+          - name: IBM Cloud Toolchain
+            description: Integrated toolchain for DevOps pipeline management
+            homepage_url: https://www.ibm.com/cloud/devops/toolchain
+            logo: logos/cncf.svg
+          - name: IBM Cloud Continuous Delivery
+            description: Continuous integration and delivery pipeline service
+            homepage_url: https://www.ibm.com/cloud/continuous-delivery
+            logo: logos/cncf.svg
+          - name: IBM Cloud Data Integration
+            description: Data pipeline and workflow orchestration
+            homepage_url: https://www.ibm.com/cloud/data-integration
+            logo: logos/cncf.svg
+          - name: IBM Cloud Pak for Integration
+            description: Enterprise integration platform with pipeline capabilities
+            homepage_url: https://www.ibm.com/cloud/paks/integration
+            logo: logos/cncf.svg
+
+      - name: Broadcom Pipeline Solutions
+        items:
+          - name: VMware Aria Automation
+            description: Infrastructure automation and orchestration pipelines
+            homepage_url: https://www.vmware.com/products/aria/automation.html
+            logo: logos/cncf.svg
+          - name: Broadcom Workload Automation
+            description: Enterprise batch and workflow pipeline scheduling
+            homepage_url: https://www.broadcom.com/products/automation
+            logo: logos/cncf.svg
+          - name: VMware Tanzu Integration Hub
+            description: Enterprise integration pipelines and API orchestration
+            homepage_url: https://tanzu.vmware.com/integration
+            logo: logos/cncf.svg
+          - name: Broadcom Enterprise Service Bus
+            description: Message-oriented pipeline middleware
+            homepage_url: https://www.broadcom.com/products/middleware/esb
+            logo: logos/cncf.svg
+
+      - name: Multi-Cloud Pipeline Integration
+        items:
+          - name: Apache Airflow
+            description: Open-source workflow orchestration for multi-cloud pipelines
+            homepage_url: https://airflow.apache.org/
+            logo: logos/cncf.svg
+          - name: Kubernetes Workflows
+            description: Container-native pipeline orchestration across clouds
+            homepage_url: https://kubernetes.io/docs/concepts/workloads/
+            logo: logos/cncf.svg
+          - name: Terraform Automation
+            description: Infrastructure-as-code pipeline automation
+            homepage_url: https://www.terraform.io/
+            logo: logos/cncf.svg
+          - name: Jenkins
+            description: Open-source automation server for CI/CD pipelines
+            homepage_url: https://www.jenkins.io/
+            logo: logos/cncf.svg
+          - name: GitLab CI/CD
+            description: Integrated CI/CD pipeline platform
+            homepage_url: https://docs.gitlab.com/ee/ci/
+            logo: logos/cncf.svg
