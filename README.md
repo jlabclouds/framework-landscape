@@ -1,3 +1,5 @@
+- add [pluto.land](https://pluto.land) for free pluto notebooks hosting
+
 # Framework Landscape
 
 This project uses the Landscape2 toolchain to render a local static site from the YAML configuration files.
