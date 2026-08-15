@@ -1,5 +1,4 @@
 - add [pluto.land](https://pluto.land) for free pluto notebooks hosting
-- [Strelka](https://github.com/target/strelka-ui?tab=readme-ov-file)
 
 Real-time file scanning at enterprise scale.
 
